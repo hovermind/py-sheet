@@ -5,7 +5,7 @@ name = "hassan"       # string literal
 id = 222              # int literal
 isOk = True           # boolean literal
 ```
-#### prefix
+#### literal prefix
 * 0b - binary
 * 0o - octal
 * 0x - hex
