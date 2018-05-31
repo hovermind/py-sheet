@@ -52,5 +52,5 @@ name: str = "hassan"
 ```
 
 See:    
-[Tuple](#)
+[Tuple](#)     
 [List, Set & Dictionary](#)
