@@ -1,7 +1,8 @@
 #### standard c operators except `and`, `or`, `not` instead of `&&`, `||`, `!`
+
 #### bitwise operators are same as c: `&, |, ~, ^, >>, <<`
 
-#### python specific operators: `/, //, **, in. not in`
+#### python specific operators: `/, //, **, in, not in`
 
 **`/`:**
 * performs floating point division
@@ -16,7 +17,7 @@
 * operator means “raised to the power of"
 * `base ** exponent` => `pow(base, exponent)`
 
-## Operator function
+## Operator functions
 |Operation | Syntax | Function |
 |----------|:------:|----------|
 |Addition | a + b	| add(a, b) |
