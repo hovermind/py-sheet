@@ -6,5 +6,7 @@ How does that work? Based on each variable’s original assignment, Python figur
 ## Type alias
 
 ## GetType
+* You can use the `type()` function to check the type of any value or variable. As you might expect, 1 is an int
+* Similarly, you can use the `isinstance()` function to check whether a value or variable is of a given type
 
 ## Type capacity
