@@ -10,9 +10,9 @@
 * When integer-dividing negative numbers, `//` operator rounds “up” to the nearest integer
 * doesn’t always return an integer. If either the numerator or denominator is a float, it will still round to the nearest integer, but the actual return value will be a float  
 
-**`**`:** operator means “raised to the power of
+**`**`:** operator means “raised to the power of". `base ** exponent` => `pow(base, exponent)`
 
-#### operator and function
+## Operator function
 |Operation | Syntax | Function |
 |----------|:------:|----------|
 |Addition | a + b	| add(a, b) |
