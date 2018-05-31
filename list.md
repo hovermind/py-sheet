@@ -26,7 +26,7 @@ myList = [2, 4, 6]
 four = myList[1]
 
 nestedlist = ["Happy", [1, 3, 5]]
-y = nestedList[0][4]  // first element is string & slicing string
+y = nestedList[0][4]  # first element is string & slicing string
 five = nestedList[1][2]
 
 myList = [2, 4, 6]
@@ -47,3 +47,23 @@ sliced = myList[:-5]  # first to 3rd (last element is -1, count backward)
 sliced = myList[4:]   # 5th to rest
 sliced = myList[0:4]  # first to 3rd (don't use [:4] becase explicit is better than implicit)
 ```
+
+## Adding items to list
+* `+` : concatinates and creates new list (two-step process — can consume a lot of memory when you’re dealing with large lists)
+* `append()`: method adds a single item to the end of the list.
+* `extend()`: appends items of given list to original list
+* `insert()`: inserts a single item at specified index (other items have their positional index bumped up to make room)
+```
+tempList = [1, 2]
+
+myList = tempList + [3, 4]  # [1, 2, 3, 4]
+
+myList.append(5)            # [1, 2, 3, 4, 5]
+
+myList.extend([6, 7])       # [1, 2, 3, 4, 5, 6, 7]
+
+myList.insert(0, 8)         # [8, 1, 2, 3, 4, 5, 6, 7]
+
+```
+
+
