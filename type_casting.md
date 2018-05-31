@@ -40,3 +40,19 @@ ord(x)                 # Converts a single character to its integer value.
 hex(x)                 # Converts an integer to a hexadecimal string.
 oct(x)                 # Converts an integer to an octal string.
 ```
+
+#### is
+`==` operator is used to test if two variables are equal or not, `is` is used to test if the two variables refer to the same object.
+```
+[] == []            # True
+[] is []            # False
+{} == {}            # True
+{} is {}            # False
+```
+
+#### as
+`as` is used to create an alias while importing a module.
+```
+import math as myAlias
+myAlias.cos(myAlias.pi)
+```
