@@ -6,7 +6,7 @@
 * [printing and formatting](https://github.com/hovermind/pycheatsheet/blob/master/printing_and_formatting.md)
 * [type related](https://github.com/hovermind/pycheatsheet/blob/master/type_related.md)
 * [optional type](https://github.com/hovermind/pycheatsheet/blob/master/optional_type.md)
-* [type casting](#)
+* [type casting](https://github.com/hovermind/pycheatsheet/blob/master/type_casting.md)
 * [tuple](#)
 * [operators](#)
 * [string](#)
