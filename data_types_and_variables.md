@@ -6,11 +6,10 @@
 
 ```
 x = 2
-name = "hassan"
 
-name: str
+name = "hassan"
 name: str = "hassan"
-x: int = 222
+
 primes: List[int] = []
 stats: Dict[str, int] = {}
 
@@ -24,8 +23,8 @@ It acts like dynamically typed, but it is statically typed behind the scene.Ever
 * **Booleans** are either True or False
 * **Strings** are sequences of Unicode characters, e.g. an html document
 * **Bytes** and **byte arrays** (e.g. a jpeg image file)
-* **Lists** are ordered sequences of values
 * **Tuples** are ordered, immutable sequences of values
+* **Lists** are ordered sequences of values
 * **Sets** are unordered bags of values
 * **Dictionaries** are unordered bags of key-value pairs
 
@@ -49,6 +48,7 @@ a = 1 + 2j  // (J) Contains integer in the range 0 to 255.
 ```
 x = 10
 if x > 5:
+    ... ...
     ... ...
 ```
 
