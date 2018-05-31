@@ -19,7 +19,7 @@ myNestedList = [[], []] # nested/multidimentional list
 ```
 
 ## Accessing list item
-* A negative index accesses items from the end of the list counting backwards. The last item of any non-empty list is always `a_list[-1]`
+* A negative index accesses items from the end of the list. The last item of any non-empty list is always `a_list[-1]`
 * If the negative index is confusing to you, think of it this way: `a_list[-n] == a_list[len(a_list) - n]`
 ```
 myList = [2, 4, 6]
@@ -31,4 +31,19 @@ five = nestedList[1][2]
 
 myList = [2, 4, 6]
 six = myList[-1]
+```
+
+## Slicing list
+* returned value is a new list containing all the items of the list, in order, starting with the first slice index, up to but not including the second slice index
+* you can think of it this way: reading the list from left to right, the first slice index specifies the first item you want, and the second slice index specifies the first item you don’t want. The return value is everything in between
+* if the left slice index is 0, you can leave it out, and 0 is implied
+* similarly, if the right slice index is the length of the list, you can leave it out
+* if both slice indices are left out, all items of the list are included. But this is not the same as the original a_list variable. It is a new list that happens to have all the same items. `a_list[:]` is shorthand for making a complete copy of a list.
+```
+myList = [1, 2, 3, 4, 5, 6, 7, 8]
+
+sliced = myList[2:5]  # 3rd to 5th
+sliced = myList[:-5]  # first to 3rd (last element is -1, count backward)
+sliced = myList[4:]   # 5th to rest
+sliced = myList[0:4]  # first to 3rd (don't use [:4] becase explicit is better than implicit)
 ```
