@@ -47,6 +47,10 @@ message = "hello world"
 
 name: str
 name = "hassan"
+
+name: str = "hassan"
 ```
 
-
+See:    
+[Tuple](#)
+[List, Set & Dictionary](#)
