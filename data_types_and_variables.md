@@ -23,7 +23,6 @@ In Python, every value has a datatype, but you don’t need to declare the datat
 * Complex numbers are written in the form, x + yj, where x is the real part and y is the imaginary part
 ```
 a = 10      // Signed Integer
-a = 345L    // (L) Long integers, they can also be represented in octal and hexadecimal
 a = 3.1416  // (.) Floating point real values
 a = 1 + 2j  // (J) Contains integer in the range 0 to 255.
 ```
@@ -39,3 +38,15 @@ x = 10
 if x > 5:
     ... ...
 ```
+
+## str
+* Python uses single quotes `'` double quotes `"` and triple quotes `"""` to denote literal strings
+* Multi-line strings can be denoted using triple quotes, `'''` or `"""`
+```
+message = "hello world"
+
+name: str
+name = "hassan"
+```
+
+
