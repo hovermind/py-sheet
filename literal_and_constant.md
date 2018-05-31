@@ -18,8 +18,7 @@ octVal = 0o336
 ## Constant
 There is no const keyword to declare constant in python. just declare it & don't reassign: `PI = 3.1426`
 
-**hack:**    
-`const.py`
+**hack:** `const.py`
 ```
 class __MetaConst(type):
     def __getattr__(cls, key):
