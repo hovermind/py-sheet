@@ -54,5 +54,6 @@ oct(x)                 # Converts an integer to an octal string.
 `as` is used to create an alias while importing a module.
 ```
 import math as myAlias
+
 myAlias.cos(myAlias.pi)
 ```
