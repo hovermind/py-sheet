@@ -5,6 +5,6 @@
 * [type related](https://github.com/hovermind/pycheatsheet/blob/master/type_related.md)
 * [optional type](https://github.com/hovermind/pycheatsheet/blob/master/optional_type.md)
 * [type casting](https://github.com/hovermind/pycheatsheet/blob/master/type_casting.md)
-* [operators](#)
+* [operators](https://github.com/hovermind/pycheatsheet/blob/master/operators.md)
 * [tuple](https://github.com/hovermind/pycheatsheet/blob/master/tuple.md)
 * [string](#)
