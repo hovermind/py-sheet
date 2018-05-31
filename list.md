@@ -49,10 +49,10 @@ sliced = myList[0:4]  # first to 3rd (don't use [:4] becase explicit is better t
 ```
 
 ## Adding items to list
-* `+` : concatinates and creates new list (two-step process — can consume a lot of memory when you’re dealing with large lists)
+* `+` : concatinates & creates new list (two-step process, can consume a lot of memory when you’re dealing with large lists)
 * `append()`: method adds a single item to the end of the list.
 * `extend()`: appends items of given list to original list
-* `insert()`: inserts a single item at specified index (other items have their positional index bumped up to make room)
+* `insert()`: inserts a single item at specified index (items after given index have their positions bumped up to make room)
 ```
 tempList = [1, 2]
 
@@ -66,4 +66,20 @@ myList.insert(0, 8)         # [8, 1, 2, 3, 4, 5, 6, 7]
 
 ```
 
+## Altering list item
+```
+myList = [0, 0, 0, 0, 5]
+
+myList[0] = 1            # [1, 0, 0, 0, 5]
+
+myList[1:4] = [2, 3, 4]  # [1, 2, 3, 4, 5]
+
+```
+
+## Removing item
+* `del`: removes single/range of items. All items after the deleted item shift their positional index to “fill the gap”
+* `remove()`: takes a value and removes the first occurrence of that value from the list (positions will be shifted)
+* `remove()` will raise an exception if you try to remove a value that isn’t in the list
+* `pop()/pop(index)`: removes item at index or last item(no argument) & returns removed value (positions will be shifted)
+* `pop()` on an empty list raises an exception.
 
