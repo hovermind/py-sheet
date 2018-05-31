@@ -1,5 +1,5 @@
 ## Literals
-#### suffix
+#### no literal suffix
 ```
 name = "hassan"       # string literal
 id = 222              # int literal
@@ -18,8 +18,7 @@ octVal = 0o336
 ## Constant
 There is no const keyword to declare constant in python. just declare it & don't reassign: `PI = 3.1426`
 
-
-**hacks:**    
+**hack:**    
 `const.py`
 ```
 class __MetaConst(type):
@@ -36,7 +35,7 @@ class __Const(object, metaclass = __MetaConst):
     def __setattr__(self, name, value):
         raise TypeError
 ```
-Use in your class:
+**Use in your class:**
 ```
 class MyConst(__Const):
     PI = 3.1416
