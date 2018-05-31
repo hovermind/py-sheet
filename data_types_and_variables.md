@@ -1,9 +1,10 @@
 ## Variable
-**Other languages have variables, python has names.** In Python, every value has a datatype, but you don’t need to declare the datatype of variables.
+**Other languages have variables, python has names.**
 ```
 x
 x = 2
 ```
+In Python, every value has a datatype, but you don’t need to declare the datatype of variables.
 
 ## Data types
 * **Numbers** can be integers (1 and 2), floats (1.1 and 1.2), fractions (1/2 and 2/3), or even complex numbers.
@@ -23,6 +24,18 @@ x = 2
 ```
 a = 10	 	 	   // Signed Integer
 a = 345L	 	 	 // (L) Long integers, they can also be represented in octal and hexadecimal
-a = 2.45	 	 	 // (.) Floating point real values
+a = 3.1416	 	 	 // (.) Floating point real values
 a = 1 + 2j	 	 // (J) Contains integer in the range 0 to 255.
+```
+
+## Boolean
+* Python booleans are truth-like/false-like
+* Expressions can also evaluate to a boolean value
+* Different datatypes have different rules about which values are true or false in a boolean context (i.e. if statement)
+* Python has two constants, cleverly named True and False
+* Don't treat True as 1, False as 0
+```
+x = 10
+if x > 5:
+    ... ...
 ```
