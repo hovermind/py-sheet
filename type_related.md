@@ -4,6 +4,11 @@ How does that work? Based on each variable’s original assignment, Python figur
 
 
 ## Type alias
+Type aliases are defined by simple variable assignments:
+```
+Url = str
+def retry(url: Url, retry_count: int) -> None: ...
+```
 
 ## GetType
 * You can use the `type()` function to check the type of any value or variable. As you might expect, 1 is an int
