@@ -6,11 +6,15 @@
 
 ```
 x = 2
-captain: str  # Note: no initial value!
+name = "hassan"
+
+name: str
 name: str = "hassan"
-id: int = 222
+x: int = 222
 primes: List[int] = []
 stats: Dict[str, int] = {}
+
+foo = None    # ~ perl undef
 ```
 **Note**    
 It acts like dynamically typed, but it is statically typed behind the scene.Every value in Python has a datatype. Since everything is an object in Python programming, data types are actually classes and variables are instance (object) of these classes.
@@ -61,5 +65,7 @@ name: str = "hassan"
 ```
 
 See:    
-[Tuple](#)     
-[List, Set & Dictionary](#)
+* [tuple](#)     
+* [list](#)
+* [set](#)
+* [dict](#)
