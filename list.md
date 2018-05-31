@@ -5,11 +5,11 @@
 ```
 myList = [0, 1, 2, 3]
 ```
-**Note:**    
-* A list can be used like a zero-based array
-* A negative index accesses items from the end of the list counting backwards. The last item of any non-empty list is always a_list[-1]
-* If the negative index is confusing to you, think of it this way: a_list[-n] == a_list[len(a_list) - n]. So in this list, a_list[-3] == a_list[5 - 3] == a_list[2].
 
+**Notes:**    
+* A list can be used like a zero-based array
+* A negative index accesses items from the end of the list counting backwards. The last item of any non-empty list is always `a_list[-1]`
+* If the negative index is confusing to you, think of it this way: `a_list[-n] == a_list[len(a_list) - n]`
 
 ## Creating list
 ```
