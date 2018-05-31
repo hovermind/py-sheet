@@ -1,10 +1,19 @@
 ## Variable
-**Other languages have variables, python has names.**
+* other languages have variables, python has names
+* there is no keyword to declare variables in python
+* True, False and None are uppercase, all other keywords in lowercase
+* python is case sensitive
+
 ```
-x
 x = 2
+captain: str  # Note: no initial value!
+name: str = "hassan"
+id: int = 222
+primes: List[int] = []
+stats: Dict[str, int] = {}
 ```
-In Python, every value has a datatype, but you don’t need to declare the datatype of variables.
+**Note**    
+It acts like dynamically typed, but it is statically typed behind the scene.Every value in Python has a datatype. Since everything is an object in Python programming, data types are actually classes and variables are instance (object) of these classes.
 
 ## Data types
 * **Numbers** can be integers (1 and 2), floats (1.1 and 1.2), fractions (1/2 and 2/3), or even complex numbers
