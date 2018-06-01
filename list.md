@@ -18,6 +18,12 @@ myList = [1, "Hello", 3.4] # list with mixed datatypes
 myNestedList = [[], []] # nested/multidimentional list
 ```
 
+**Elegant way to create new List: `[x for x in range(n)]`** x starts with 0
+```
+linear = [x for x in range(5)]             # [0, 1, 2, 3, 4]
+powerSeries = [2 ** x for x in range(10)]  # [1, 2, 4, 8, 16, 32, 64, 128, 256, 512]
+```
+
 ## Accessing list item
 * A negative index accesses items from the end of the list. The last item of any non-empty list is always `a_list[-1]`
 * If the negative index is confusing to you, think of it this way: `a_list[-n] == a_list[len(a_list) - n]`
@@ -92,7 +98,7 @@ myList = [1, 2, 0, 3, 4, 5]
 myList.remove(0)    # [1, 2, 3, 4, 5]
 two = myList.pop(1) # [1, 3, 4, 5]
 five = myList.pop() # [1, 3, 4]
-myList.clear()      # clear
+myList.clear()      # []
 ```
 
-## [List Methodsand Built-in Functions with List](https://www.programiz.com/python-programming/methods/list/)
+## [List Methods and Built-in Functions with List](https://www.programiz.com/python-programming/methods/list/)
