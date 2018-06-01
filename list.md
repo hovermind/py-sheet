@@ -66,7 +66,7 @@ myList.insert(0, 8)         # [8, 1, 2, 3, 4, 5, 6, 7]
 
 ```
 
-## Altering list item
+## Altering item
 ```
 myList = [0, 0, 0, 0, 5]
 
@@ -94,3 +94,5 @@ two = myList.pop(1) # [1, 3, 4, 5]
 five = myList.pop() # [1, 3, 4]
 myList.clear()      # clear
 ```
+
+## [List Methodsand Built-in Functions with List](https://www.programiz.com/python-programming/methods/list/)
