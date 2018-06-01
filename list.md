@@ -82,4 +82,15 @@ myList[1:4] = [2, 3, 4]  # [1, 2, 3, 4, 5]
 * `remove()` will raise an exception if you try to remove a value that isn’t in the list
 * `pop()/pop(index)`: removes item at index or last item(no argument) & returns removed value (positions will be shifted)
 * `pop()` on an empty list raises an exception.
+```
+myList = [1, 0, 3, 4, 5, 6, 7]
+del [1]     # [1, 3, 4 , 5, 6, 7]
+del [0:2]   # [5, 6, 7]
+del myList  # deleted entire list
 
+myList = [1, 2, 0, 3, 4, 5]
+myList.remove(0)    # [1, 2, 3, 4, 5]
+two = myList.pop(1) # [1, 3, 4, 5]
+five = myList.pop() # [1, 3, 4]
+myList.clear()      # clear
+```
