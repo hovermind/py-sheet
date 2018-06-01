@@ -19,4 +19,8 @@ instance_var_name
 function_parameter_name
 local_var_name
 ```
-A similar naming scheme should be applied to a `CLASS_CONSTANT_NAME`
+A similar naming scheme should be applied to a `CLASS_CONSTANT_NAME`    
+
+[Python PEP 8](http://www.python.org/dev/peps/pep-0008/)
+Function names should be lowercase, with words separated by underscores as necessary to improve readability.
+mixedCase is allowed only in contexts where that's already the prevailing style
