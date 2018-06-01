@@ -22,6 +22,11 @@ myNestedList = [[], []] # nested/multidimentional list
 ```
 linear = [x for x in range(5)]             # [0, 1, 2, 3, 4]
 powerSeries = [2 ** x for x in range(10)]  # [1, 2, 4, 8, 16, 32, 64, 128, 256, 512]
+
+# above code is equivalent to
+powerSeries = []
+for x in range(10):
+   powerSeries.append(2 ** x)
 ```
 
 ## Accessing list item
@@ -37,6 +42,13 @@ five = nestedList[1][2]
 
 myList = [2, 4, 6]
 six = myList[-1]
+```
+
+## Iterating trough a list
+```
+myList = ['apple','banana','mango']
+for fruit in myList:
+    print(f"I like {fruit}")
 ```
 
 ## Slicing list
@@ -101,4 +113,15 @@ five = myList.pop() # [1, 3, 4]
 myList.clear()      # []
 ```
 
-## [List Methods and Built-in Functions with List](https://www.programiz.com/python-programming/methods/list/)
+## List Membership Test
+```
+my_list = ['p','r','o','b','l','e','m']
+
+print('p' in my_list)      # True
+
+print('a' in my_list)      # False
+
+print('c' not in my_list)  # True
+```
+
+## See: [List Methods and Built-in Functions with List](https://www.programiz.com/python-programming/methods/list/)
