@@ -1,8 +1,48 @@
-## Package
+## Module
+Modules refer to a file containing Python statements and definitions i.e. `math.py`    
 
-## Import
+See: 
+* [Module details](https://www.programiz.com/python-programming/modules)
+* [Python standard modules](https://docs.python.org/3/py-modindex.html)
+
+#### Python import statement
+```
+import math
+print(math.pi)
+
+import math as m
+print(m.pi)  # math.pi is invalid
+
+from math import pi
+print(pi)
+
+from math import *  # not good practice
+# everything from math module is available
+print(pi)
+```
+
+## Package
+* Python has packages for directories for modules
+* A directory must contain a file named __init__.py in order for Python to consider it as a package
+* Package can have sub-packages and modules
+```
+import package.module
+package.module.function()
+
+from package import module
+module.function()
+
+from package.module import function
+function()
+```
+See: [Package details](https://www.programiz.com/python-programming/package)
 
 ## Help
+python interactive interpreter
+```
+help
+help(function)
+```
 
 ## Style guide
 [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html) has the following convention:
