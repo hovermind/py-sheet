@@ -6,9 +6,9 @@ id = 222              # int literal
 isOk = True           # boolean literal
 ```
 #### literal prefix
-* 0b - binary
-* 0o - octal
-* 0x - hex
+* 0b or 0B - binary
+* 0o or 0O - octal
+* 0x or 0X - hex
 ```
 binVal = 0b11011110
 hexVal = 0xDE
