@@ -10,9 +10,9 @@ my_set = {1, 2, [3, 4]}  # TypeError: unhashable type: 'list'
 
 my_set = {1, 2, 2, 3}  # {1, 2, 3} duplicates are adjusted automatically
 
-# creating set from list
+# creating set from list (order not maintained)
 my_list = [1, 2, 3, 3, 4]
-my_set = set(my_list)  # {1, 2, 3, 4} unordered
+my_set = set(my_list)  # {1, 2, 3, 4}
 ```
 **Empty set**
 ```
