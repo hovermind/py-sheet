@@ -64,7 +64,7 @@ name = "hassan"
 name: str = "hassan"
 ```
 
-**See:***     
+**See:**     
 ### [tuple](https://github.com/hovermind/pycheatsheet/blob/master/tuple.md)     
 ### [list](https://github.com/hovermind/pycheatsheet/blob/master/list.md)
 ### [set](https://github.com/hovermind/pycheatsheet/blob/master/set.md)
