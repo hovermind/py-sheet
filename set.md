@@ -46,9 +46,9 @@ my_set.update([4, 5], {1, 1, 6})  # {1, 2, 3, 4, 5, 6}
 
 ## Removing element
 `discard(x)` : no error if `x` does not exist    
-`remove()` : error if `x` does not exist    
-`pop()` : removes from top (random) and returns the poped element    
-`clear()` : clears all element
+`remove(x)` : error if `x` does not exist    
+`pop()` : removes last element (random) and returns it    
+`clear()` : removes all elements
 ```
 my_set = {1, 3, 4, 5, 6}
 my_set.discard(4)            # {1, 3, 5, 6}
