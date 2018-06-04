@@ -32,6 +32,20 @@ my_set = {1, 3, 4, 2}
 my_set[0]  # TypeError: 'set' object does not support indexing
 ```
 
+## Iterating
+```
+for item in my_set:
+    print(item)
+```
+
+## Membership test
+```
+my_set = set("mikan")
+
+print('a' in my_set)      # True
+print('m' not in my_set)  # False
+```
+
 ## Changing elements
 `add()` : add single element    
 `update()` : and multiple elements (tuples, lists, strings or other sets)
@@ -81,4 +95,18 @@ C = A.difference(B)     # {1, 2, 3}
 C = A ^ B                      # {1, 2, 3, 6, 7, 8}
 C = A.symmetric_difference(B)  # {1, 2, 3, 6, 7, 8}
 ```
-## [python set methods](https://www.programiz.com/python-programming/methods/set/)
+## See: [python set methods](https://www.programiz.com/python-programming/methods/set/)
+
+## Frozenset
+While tuples are immutable lists, frozensets are immutable sets. Sets being mutable are unhashable, so they can't be used as dictionary keys. On the other hand, frozensets are hashable and can be used as keys to a dictionary.    
+
+Frozensets can be created using the function frozenset()
+```
+A = frozenset([1, 2, 3, 4])
+B = frozenset([3, 4, 5, 6])
+
+A.add(3)           # AttributeError: 'frozenset' object has no attribute 'add'
+A.isdisjoint(B)    # False
+A.difference(B)    # frozenset({1, 2})
+A | B              # frozenset({1, 2, 3, 4, 5, 6})
+```
