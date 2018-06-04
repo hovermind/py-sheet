@@ -81,4 +81,4 @@ C = A.difference(B)     # {1, 2, 3}
 C = A ^ B                      # {1, 2, 3, 6, 7, 8}
 C = A.symmetric_difference(B)  # {1, 2, 3, 6, 7, 8}
 ```
-See: [Python set methods](https://www.programiz.com/python-programming/methods/set/)
+## See: [python set methods](https://www.programiz.com/python-programming/methods/set/)
