@@ -1,6 +1,7 @@
 * unordered collection of items. items can be any types (mixed)
 * set itself is mutable but items must be immutable
 * mathematical set operations like union, intersection, symmetric difference etc can be performed
+* cannot access or change an element of set using indexing or slicing
 
 ## Creating set
 ```
@@ -15,9 +16,30 @@ my_set = {1, 2, 2, 3}               # {1, 2, 3} duplicates are adjusted automati
 my_list = [1, 2, 3, 3, 4]
 my_set = set(my_list)               # {1, 2, 3, 4}
 ```
+
 **Empty set**
 ```
 my_set = {}     # dict not set
 
 my_set = set()  # empty set
+```
+
+## Accessing element
+Set is mutable but unordered -> indexing does not work
+```
+my_set = {1, 3, 4, 2}
+
+my_set[0]  # TypeError: 'set' object does not support indexing
+```
+
+## Changing elements
+`add()` : add single element    
+`update()` : and multiple elements (tuples, lists, strings or other sets)
+```
+my_set = {1,3}
+
+my_set.add(2)                     # {1, 2, 3}
+my_set.update([4, 5])             # {1, 2, 3, 4, 5}
+my_set.update([4, 5], {1, 1, 6})  # {1, 2, 3, 4, 5, 6}
+
 ```
