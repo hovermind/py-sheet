@@ -71,7 +71,7 @@ print(my_tuple[7:])   # ('i', 'z')
 ```
 
 ## Changing tuple
-tuples are immutable
+tuples are immutable (can not add, append, remove, delete elements)
 ```
 my_tuple = (4, 2, 3, [6, 5])  
 my_tuple[1] = 9  # TypeError: 'tuple' object does not support item assignment
@@ -81,8 +81,8 @@ If the element is itself a mutable datatype like list, its nested items can be c
 my_tuple = (4, 2, 3, [6, 5])
 my_tuple[3][0] = 9  # (4, 2, 3, [9, 5])
 ```
-concatenation: +    
-repeat the elements in a tuple for a given number of times: *
+`+` : concatenation    
+`*` : repeat the elements in a tuple for a given number of times
 ```
 print((1, 2, 3) + (4, 5, 6))  # (1, 2, 3, 4, 5, 6)
 
