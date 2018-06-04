@@ -59,3 +59,22 @@ print(my_set.pop())          #  random element
 my_set.clear()
 print(my_set)                # empty set -> set()
 ```
+
+## Set operations
+Union : `|` or `union()`    
+Intersection : `&` or `intersection()`
+Difference : `-` or `difference()`
+```
+A = {1, 2, 3, 4, 5}
+B = {4, 5, 6, 7, 8}
+
+C = A | B               # {1, 2, 3, 4, 5, 6, 7, 8}
+C = A.union(B)          # {1, 2, 3, 4, 5, 6, 7, 8}
+
+C = A & B               # {4, 5}
+C = A.intersection(B)   # {4, 5}
+
+C = A - B               # {1, 2, 3}
+C = A.difference(B)     # {1, 2, 3}
+```
+
