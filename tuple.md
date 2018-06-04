@@ -54,12 +54,13 @@ print('g' not in my_tuple)  # True
 
 ## Unpacking tuple
 ```
-my_tuple = (3, 4.6, "dog")
+my_tuple = (3, "dog")
 
-a, b, c = my_tuple
+(a, b) = my_tuple
 print(a)  # 3
-print(b)  # 4.6
-print(c)  # "dog"
+print(b)  # "dog"
+
+(MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY) = range(7)  # MONDAY is 0, TUESDAY is 1, and so forth
 ```
 
 ## Slicing
