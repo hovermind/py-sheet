@@ -39,6 +39,19 @@ my_tuple = ('p','e','r','m','i','t')
 print(my_tuple[-1])  # 't'
 ```
 
+## Iterating through a tuple
+```
+for name in ('John','Kate'):
+     print("Hello",name) 
+```
+
+## Tuple membership test
+```
+my_tuple = ('a','p','p','l','e',)
+print('a' in my_tuple)  # True
+print('g' not in my_tuple)  # True
+```
+
 ## Unpacking tuple
 ```
 my_tuple = (3, 4.6, "dog")
@@ -55,4 +68,40 @@ my_tuple = ('p','r','o','g','r','a','m','i','z')
 print(my_tuple[1:4])  # elements 2nd to 4th ('r', 'o', 'g')
 print(my_tuple[:-7])  # ('p', 'r')
 print(my_tuple[7:])   # ('i', 'z')
+```
+
+## Changing tuple
+tuples are immutable
+```
+my_tuple = (4, 2, 3, [6, 5])  
+my_tuple[1] = 9  # TypeError: 'tuple' object does not support item assignment
+```
+If the element is itself a mutable datatype like list, its nested items can be changed
+```
+my_tuple = (4, 2, 3, [6, 5])
+my_tuple[3][0] = 9  # (4, 2, 3, [9, 5])
+```
+concatenation: +    
+repeat the elements in a tuple for a given number of times: *
+```
+print((1, 2, 3) + (4, 5, 6))  # (1, 2, 3, 4, 5, 6)
+
+print(("Repeat",) * 3)  # ('Repeat', 'Repeat', 'Repeat')
+```
+**Both + and * operations result into a new tuple**
+
+## Deleting a Tuple
+cannot delete or remove items from a tuple but deleting a tuple entirely is possible
+```
+my_tuple = (1, 2, 3, 4)
+del my_tuple
+my_tuple  # NameError: name 'my_tuple' is not defined
+```
+## Tuple methods
+`count(x)` :	Return the number of items that is equal to x    
+`index(x)` :	Return index of first item that is equal to x
+```
+my_tuple = ('a','p','p','l','e',)
+print(my_tuple.count('p'))  # 2
+print(my_tuple.index('l'))  # 3
 ```
