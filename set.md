@@ -62,8 +62,9 @@ print(my_set)                # empty set -> set()
 
 ## Set operations
 Union : `|` or `union()`    
-Intersection : `&` or `intersection()`
-Difference : `-` or `difference()`
+Intersection : `&` or `intersection()`    
+Difference : `-` or `difference()`     
+Symmetric Difference : `^` or `symmetric_difference()`
 ```
 A = {1, 2, 3, 4, 5}
 B = {4, 5, 6, 7, 8}
@@ -76,5 +77,8 @@ C = A.intersection(B)   # {4, 5}
 
 C = A - B               # {1, 2, 3}
 C = A.difference(B)     # {1, 2, 3}
-```
 
+C = A ^ B                      # {1, 2, 3, 6, 7, 8}
+C = A.symmetric_difference(B)  # {1, 2, 3, 6, 7, 8}
+```
+See: [Python set methods](https://www.programiz.com/python-programming/methods/set/)
