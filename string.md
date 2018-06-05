@@ -43,6 +43,30 @@ test_date = datetime.datetime(2017, 10, 2, 16, 30, 00)
 print(f"{test_date :%Y-%m-%d %H:%M:%S}")
 ```
 
+## String template
+```
+from string import Template
+
+strTemplate = Template('$who likes $what')
+
+strFinal = strTemplate.substitute(who = "Hassan", what = "programming")
+print(f"{strFinal}")   # Hassan likes programming
+
+substituterDict = dict(who = "hovermind", what = "game")
+strFinal = strTemplate.substitute(substituterDict)
+print(f"{strFinal}")   # hovermind likes game
+```
+`safe_substitute(d)` : if a value missing it will print $subs as it is
+```
+from string import Template
+
+strTemplate = Template('$who likes $what')
+
+substituterDict = dict(who = "hovermind")
+strFinal = strTemplate.safe_substitute(substituterDict)
+print("{strFinal}")   # hovermind likes $what
+```
+
 ## Accessing characters in a string
 List of chars. We can access individual characters using indexing and a range of characters using slicing. Negative indexing also possible.
 ```
