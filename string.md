@@ -17,6 +17,32 @@ print(f"Hello {hooman}!")
 print("Hello {hooman}!, I am {hovermind}\n".format_map(locals()))
 ```
 
+## Format specifier
+same as C# -> `:` 
+```
+testNum = 123456789
+testFloat = 7141.6247234
+PI = 3.1416247234
+
+print(f"Hex: {testNum : x}")
+print(f"Hex with notation: {testNum :#x} \n")
+
+print(f"Binary: {testNum : b}")
+print(f"Binary with notation: {testNum :#b} \n")
+
+print(f"Octal:{testNum : o}")
+print(f"Octal with notation: {testNum :#o} \n")
+
+# separator
+print(f"Comma separated: {testNum :,}")
+print(f"PI precision to 4th place: {PI :.5}")
+
+# date formatting
+import datetime
+test_date = datetime.datetime(2017, 10, 2, 16, 30, 00)
+print(f"{test_date :%Y-%m-%d %H:%M:%S}")
+```
+
 ## Accessing characters in a string
 List of chars. We can access individual characters using indexing and a range of characters using slicing. Negative indexing also possible.
 ```
@@ -26,7 +52,7 @@ n = hooman[-1]
 man = hooman[3:6]
 ```
 
-## change or delete a string
+## Change or delete a string
 Strings are immutable that means elements of a string cannot be changed. String variable can be re-assigned.
 ```
 hooman = "hooman"
