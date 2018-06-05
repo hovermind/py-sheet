@@ -106,7 +106,7 @@ strFinal = strTemplate.safe_substitute(substituterDict)
 print("{strFinal}")   # hovermind likes $what
 ```
 
-## Iterating chars
+## Iterating and membership test
 ```
 hw = 'Hello World'
 
@@ -116,6 +116,9 @@ for letter in hw:
         count += 1
         
 print(count,'letters found')
+
+'a' in 'program'       # True
+'at' not in 'battle'   # False
 ```
 
 ## Accessing characters in a string
