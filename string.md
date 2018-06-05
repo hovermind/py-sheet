@@ -156,3 +156,5 @@ del hooman[1]          # TypeError: 'str' object doesn't support item deletion
 hooman = "hoowoman"
 del hooman
 ```
+
+## See: [python string methods](https://www.programiz.com/python-programming/methods/string)
