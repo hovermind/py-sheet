@@ -67,6 +67,30 @@ strFinal = strTemplate.safe_substitute(substituterDict)
 print("{strFinal}")   # hovermind likes $what
 ```
 
+## Split
+`string.split('delimeter' [, maxsplit = n])`
+```
+test = "1, 2, 3"
+splitted = test.split(',')                     # ['1', '2', '3']
+split_one = test.split(',',  maxsplit = 1)     # ['1', '2, 3']
+```
+
+## Join
+`string.join(iterable)` (list/set/dict/string)    
+list/set items & dict keys must be string (for dict, keys will be used)
+```
+my_list = ["1", "2", "3"]
+my_set = {'1', '2', '3'}
+
+separator = "|"
+
+final_str = separator.join(my_list)   # "1|2|3"
+final_str = separator.join(my_set)    # "1|2|3"
+
+my_dict = {"1": "one", "2":"two"}
+final_str = separator.join(my_dict)    # "1|2"
+```
+
 ## Accessing characters in a string
 List of chars. We can access individual characters using indexing and a range of characters using slicing. Negative indexing also possible.
 ```
