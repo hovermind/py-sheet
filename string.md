@@ -16,6 +16,22 @@ print(f"Hello {hooman}!")
 
 print("Hello {hooman}!, I am {hovermind}\n".format_map(locals()))
 ```
+## Escape sequence
+escape sequence: `\` or `'''`
+```
+# using triple quotes
+print('''He said, "What's there?"''')
+
+# escaping single quotes
+print('He said, "What\'s there?"')
+
+# escaping double quotes
+print("He said, \"What's there?\"")
+```
+Raw  string : use r or R in front of string
+```
+print(r"This is \x61 \ngood example")   # This is \x61 \ngood example
+```
 
 ## Split
 `string.split('delimeter' [, maxsplit = n])`
