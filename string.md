@@ -17,6 +17,45 @@ print(f"Hello {hooman}!")
 print("Hello {hooman}!, I am {hovermind}\n".format_map(locals()))
 ```
 
+## Split
+`string.split('delimeter' [, maxsplit = n])`
+```
+test = "1, 2, 3"
+splitted = test.split(',')                     # ['1', '2', '3']
+split_one = test.split(',',  maxsplit = 1)     # ['1', '2, 3']
+```
+
+## Join
+`string.join(iterable)` (list/set/dict/string). list/set items & dict keys must be string (for dict, keys will be used)
+```
+my_list = ["1", "2", "3"]
+my_set = {'1', '2', '3'}
+
+separator = "|"
+
+final_str = separator.join(my_list)   # "1|2|3"
+final_str = separator.join(my_set)    # "1|2|3"
+
+my_dict = {"1": "one", "2":"two"}
+final_str = separator.join(my_dict)    # "1|2"
+```
+
+## Concatenation
+```
+h = "hello"
+w = "world"
+hw = h + w
+
+h3 = h * 3                      # hello hello hello
+
+# two string literals together
+hw = 'Hello ''World!            # 'Hello World!'
+
+# using parentheses
+hw = ('Hello '
+             'World')           # 'Hello World'
+```
+
 ## Format specifier
 same as C# -> `:` 
 ```
@@ -67,28 +106,16 @@ strFinal = strTemplate.safe_substitute(substituterDict)
 print("{strFinal}")   # hovermind likes $what
 ```
 
-## Split
-`string.split('delimeter' [, maxsplit = n])`
+## Iterating chars
 ```
-test = "1, 2, 3"
-splitted = test.split(',')                     # ['1', '2', '3']
-split_one = test.split(',',  maxsplit = 1)     # ['1', '2, 3']
-```
+hw = 'Hello World'
 
-## Join
-`string.join(iterable)` (list/set/dict/string)    
-list/set items & dict keys must be string (for dict, keys will be used)
-```
-my_list = ["1", "2", "3"]
-my_set = {'1', '2', '3'}
-
-separator = "|"
-
-final_str = separator.join(my_list)   # "1|2|3"
-final_str = separator.join(my_set)    # "1|2|3"
-
-my_dict = {"1": "one", "2":"two"}
-final_str = separator.join(my_dict)    # "1|2"
+count = 0
+for letter in hw:
+    if(letter == 'l'):
+        count += 1
+        
+print(count,'letters found')
 ```
 
 ## Accessing characters in a string
