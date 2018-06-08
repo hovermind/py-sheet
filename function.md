@@ -22,3 +22,15 @@ def my_func(name, gender = "M"):
     prefix = "Mrs"
   return f"{prefix} {name}"
 ```
+
+## Calling function
+```
+def my_func(name, gender = "M"):
+  ...
+  
+my_func("Hassan")                       # valid, gender is "M"
+my_func("Hassan", "M")                  # valid, all are positional arguments
+my_func("Hassan", gneder = "M")         # valid, named argument at last
+my_func(name = "Hassan", gneder = "M")  # valid, all arguments are named
+my_func(name = "Hassan", "M")           # invalid, named argument can not preceed positional argument
+```
