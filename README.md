@@ -10,3 +10,4 @@
 * [string](https://github.com/hovermind/pycheatsheet/blob/master/string.md)
 * [function](https://github.com/hovermind/pycheatsheet/blob/master/function.md)
 * [exception](https://github.com/hovermind/pycheatsheet/blob/master/exception.md)
+  [DP](https://beckernick.github.io/dynamic-programming-knapsack/)
