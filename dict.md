@@ -11,7 +11,7 @@ my_dict = {'name': 'John', 1: [2, 4, 3]}
 
 my_dict = dict({1:'apple', 2:'ball'})
 
-my_dict = dict([(1,'apple'), (2,'ball')])
+my_dict = dict([(1,'apple'), (2,'ball')])  # from list of tuples
 ```
 Dictionary Comprehension
 ```
@@ -40,6 +40,9 @@ Using for loop, we can iterate though each key in a dictionary
 ```
 squares = {1: 1, 3: 9, 5: 25, 7: 49, 9: 81}
 for i in squares:
+    print(squares[i])
+    
+for i in squares.keys():
     print(squares[i])
 
 my_dict = {1 : "one", 2 : "two", 3 : "three"}
