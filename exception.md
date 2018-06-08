@@ -1,6 +1,15 @@
 * `try...except` blocks to handle exceptions
 * `raise` statement to generate them
 ```
+try:
+
+   # code
+   
+except ExceptionClass:
+
+   # code
+   
+# raising exception
 if size < 0:
     raise ValueError('number must be non-negative')
 ```
