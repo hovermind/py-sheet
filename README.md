@@ -7,4 +7,6 @@
 * [type casting](https://github.com/hovermind/pycheatsheet/blob/master/type_casting.md)
 * [operators](https://github.com/hovermind/pycheatsheet/blob/master/operators.md)
 * [tuple](https://github.com/hovermind/pycheatsheet/blob/master/tuple.md)
-* [string](#)
+* [string](https://github.com/hovermind/pycheatsheet/blob/master/string.md)
+* [function](https://github.com/hovermind/pycheatsheet/blob/master/function.md)
+* [exception](https://github.com/hovermind/pycheatsheet/blob/master/exception.md)
