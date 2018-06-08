@@ -16,6 +16,10 @@ if size < 0:
 Exceptions are implemented as classes, and this raise statement is actually creating an instance of the class 
 and passing the string 'message' to its initialization method
 
+Exception class example:
+* `ImportError`
+* `ValueError`
+* `NameError` (using undefined variable)
 
 ## Catching import error
 ```
