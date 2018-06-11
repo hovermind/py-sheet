@@ -45,7 +45,7 @@ print(x)
 Same as accessing list. Negative indexing allowed.
 
 ## Slicing
-Slicing is done using colon(:) with a syntax (start:end:increment) but for matrix we have to do it using numpy library.
+Slicing is done using colon(:) with a syntax (`start:end:increment`) but for matrix we have to do it using numpy library.
 ```
 from numpy import *
 a = array([[1, 'Hassan', 28, 'Tokyo'],
@@ -57,3 +57,6 @@ print(a[0:2, [0, 1, 3]])  # [0, 1, 3] => indicates columns
 [['1' 'Hassan' 'Tokyo']
  ['2' 'John' 'London']]
 ```
+
+## Change or add elements
+
