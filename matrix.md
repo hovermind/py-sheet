@@ -105,3 +105,54 @@ print(a)
   [4, 'Jim', 34, 'New York', '10']]
 
 ```
+
+## Concatination
+```
+from numpy import *
+
+a = array([[1, 'Hassan', 28, 'Tokyo'],
+           [2, 'John', 55, 'London'],
+           [3, 'Dave', 62, 'Toronto']])
+
+a = a + [[4, 'Jim', 34, 'New York']], 3)
+print(a)
+
+[[1, 'Hassan', 28, 'Tokyo'],
+ [2, 'John', 55, 'London'],
+ [3, 'Dave', 62, 'Toronto'],
+ [4, 'Jim', 34, 'New York']]
+```
+
+## Delete or remove elements from a matrix
+Deleting row
+```
+from numpy import *
+
+a = array([[1, 'Hassan', 28, 'Tokyo'],
+           [2, 'John', 55, 'London'],
+           [3, 'Dave', 62, 'Toronto'],
+           [4, 'Jim', 34, 'New York']])
+           
+a = delete(a, [2], axis = 0)   # axis 0 => row
+print(a)
+
+[[1, 'Hassan', 28, 'Tokyo'],
+ [2, 'John', 55, 'London'],
+ [4, 'Jim', 34, 'New York']]
+```
+Deleting column: `delete(matrix, s_[start_index::inteval], axis = 1)`      
+`s_[start_index::inteval]`  =>  slice to be deleted, start_index 0, interval 2 => slice with indices [0, 2, 4 ...]
+```
+from numpy import *
+
+a = array([[1, 'Hassan', 28, 'Tokyo', '5'],
+            [2, 'John', 55, 'London', '23'],
+            [4, 'Jim', 34, 'New York', '10']])
+
+a = delete(a, s_[0::2], axis = 1)  # axis 1 => column
+print(a)
+
+[['Hassan' 'Tokyo']
+ ['John' 'London']
+ ['Jim' 'New York']]
+```
