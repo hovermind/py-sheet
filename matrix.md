@@ -61,9 +61,9 @@ print(a[0:2, [0, 1, 3]])  # [0, 1, 3] => indicates columns
 ## Change or add elements
 Same as list
 ```
-a = [[1, 'Hassan', 28, 'Tokyo'],
-     [2, 'John', 55, 'London'],
-     [3, 'Dave', 62, 'Toronto']]
+a = array([[1, 'Hassan', 28, 'Tokyo'],
+           [2, 'John', 55, 'London'],
+           [3, 'Dave', 62, 'Toronto']])
 
 hassan_row = a[0]
 print(hassan_row)   # [1, 'Hassan', 28, 'Tokyo']
@@ -75,9 +75,9 @@ print(hassan_row)   # [1, 'Hassan', 28, 'Osaka']
 ```
 from numpy import *
 
-a = [[1, 'Hassan', 28, 'Tokyo'],
-     [2, 'John', 55, 'London'],
-     [3, 'Dave', 62, 'Toronto']]
+a = array([[1, 'Hassan', 28, 'Tokyo'],
+           [2, 'John', 55, 'London'],
+           [3, 'Dave', 62, 'Toronto']])
 
 a = append(a, [[4, 'Jim', 34, 'New York']], 3)
 print(a)
@@ -91,10 +91,10 @@ print(a)
 ```
 from numpy import *
 
-a = [[1, 'Hassan', 28, 'Tokyo'],
-     [2, 'John', 55, 'London'],
-     [3, 'Dave', 62, 'Toronto'],
-     [4, 'Jim', 34, 'New York']]
+a = array([[1, 'Hassan', 28, 'Tokyo'],
+           [2, 'John', 55, 'London'],
+           [3, 'Dave', 62, 'Toronto'],
+           [4, 'Jim', 34, 'New York']])
      
 a = insert(matrix, [4], [[5], [23], [35], [10]], axis = 1)
 print(a)
