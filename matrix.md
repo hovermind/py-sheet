@@ -124,7 +124,7 @@ print(a)
 ```
 
 ## Delete or remove elements from a matrix
-Deleting row
+**Deleting row:** `delete(matrix, [row_index], axis = 0)`
 ```
 from numpy import *
 
@@ -140,8 +140,9 @@ print(a)
  [2, 'John', 55, 'London'],
  [4, 'Jim', 34, 'New York']]
 ```
-Deleting column: `delete(matrix, s_[start_index::inteval], axis = 1)`      
-`s_[start_index::inteval]`  =>  slice to be deleted, start_index 0, interval 2 => slice with indices [0, 2, 4 ...]
+**Deleting column:** `delete(matrix, s_[start_index::inteval], axis = 1)`      
+
+`s_[start_index::inteval]` => slice to be deleted, start_index 0, interval 2 => slice with indices [0, 2, 4 ...]
 ```
 from numpy import *
 
