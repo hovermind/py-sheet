@@ -71,10 +71,10 @@ print(hassan_row)   # [1, 'Hassan', 28, 'Tokyo']
 hassan_row[3] = "Osaka"
 print(hassan_row)   # [1, 'Hassan', 28, 'Osaka']
 ```
-**numpy methods**    
-`append()` => single row    
+**numpy methods: ** `append()` => single row | `insert()` => items  
 ```
 from numpy import *
+
 a = [[1, 'Hassan', 28, 'Tokyo'],
      [2, 'John', 55, 'London'],
      [3, 'Dave', 62, 'Toronto']]
@@ -87,9 +87,10 @@ print(a)
  [3, 'Dave', 62, 'Toronto'],
  [4, 'Jim', 34, 'New York']]
 ```
-`insert()` => items    
 `matrix = insert(matrix, [column_index], [[], [], []], axis = 0/1)  # axis 0 => row, axis 1 => column`
 ```
+from numpy import *
+
 a = [[1, 'Hassan', 28, 'Tokyo'],
      [2, 'John', 55, 'London'],
      [3, 'Dave', 62, 'Toronto'],
