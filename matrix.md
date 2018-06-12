@@ -71,7 +71,7 @@ print(hassan_row)   # [1, 'Hassan', 28, 'Tokyo']
 hassan_row[3] = "Osaka"
 print(hassan_row)   # [1, 'Hassan', 28, 'Osaka']
 ```
-**numpy methods: ** `append()` => single row | `insert()` => items  
+**numpy methods:** `append()` => single row | `insert()` => items  
 ```
 from numpy import *
 
