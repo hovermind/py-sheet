@@ -12,10 +12,13 @@ print("Total score for", name, "is", score)
 print("Total score for ", name, " is ", score, sep='')
 ```
 
-## Interpolation
+## Comment
+* single line: `# this is single line commenct`
+* multi-line:
 ```
-name = "hassan"
-score = 82 # out of 100
+''' This is 
+    Multi-line comment 
+    in python
+'''
+```
 
-print(f'Total score for {name} is {score}')
-```
