@@ -1,5 +1,6 @@
 # TOC
 * [Print function](/printing_and_comment.md#print-function)
+* [Printing interpolated string](#)
 * [Comment](/printing_and_comment.md#comment)
 
 ## Print function
@@ -15,7 +16,15 @@ print("Total score for", name, "is", score)
 # If you don't want spaces to be inserted automatically
 print("Total score for ", name, " is ", score, sep='')
 ```
-**See: [Printing interpolated string](https://github.com/hovermind/pycheatsheet/blob/master/string.md#string-interpolation)**
+## Printing interpolated string
+```
+hooman = "hooman"
+hovermind = "hovermind"
+
+print(f"Hello {hooman}!")
+
+print("Hello {hooman}!, I am {hovermind}\n".format_map(locals()))
+```
 
 ## Comment
 * single line: `# this is single line commenct`
