@@ -1,6 +1,6 @@
 # TOC
 * [Print function](/printing_and_comment.md#print-function)
-* [Printing interpolated string](#)
+* [Printing interpolated string](/printing_and_comment.md#printing-interpolated-string)
 * [Comment](/printing_and_comment.md#comment)
 
 ## Print function
@@ -16,8 +16,9 @@ print("Total score for", name, "is", score)
 # If you don't want spaces to be inserted automatically
 print("Total score for ", name, " is ", score, sep='')
 ```
+
 ## Printing interpolated string
-```
+```python
 hooman = "hooman"
 hovermind = "hovermind"
 
