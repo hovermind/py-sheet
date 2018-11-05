@@ -15,6 +15,7 @@ print("Total score for", name, "is", score)
 # If you don't want spaces to be inserted automatically
 print("Total score for ", name, " is ", score, sep='')
 ```
+**See: [Printing interpolated string](https://github.com/hovermind/pycheatsheet/blob/master/string.md#string-interpolation)**
 
 ## Comment
 * single line: `# this is single line commenct`
