@@ -1,15 +1,18 @@
+# TOC
+* [Literals](/literal_and_constant.md#literals)
+* [Constant](/literal_and_constant.md#constant)
+
 ## Literals
-#### no literal suffix
-```
+* no literal suffix
+* literal prefix:
+    * 0b or 0B - binary
+    * 0o or 0O - octal
+    * 0x or 0X - hex
+```python
 name = "hassan"       # string literal
 id = 222              # int literal
 isOk = True           # boolean literal
-```
-#### literal prefix
-* 0b or 0B - binary
-* 0o or 0O - octal
-* 0x or 0X - hex
-```
+
 binVal = 0b11011110
 hexVal = 0xDE
 octVal = 0o336
@@ -19,7 +22,7 @@ octVal = 0o336
 There is no const keyword to declare constant in python. just declare it & don't reassign: `PI = 3.1426`
 
 **hack:** `const.py`
-```
+```python
 class __MetaConst(type):
     def __getattr__(cls, key):
         return cls[key]
@@ -34,8 +37,8 @@ class __Const(object, metaclass = __MetaConst):
     def __setattr__(self, name, value):
         raise TypeError
 ```
-**Use in your class:**
-```
+##### Use in your class:
+```python
 class MyConst(__Const):
     PI = 3.1416
 
