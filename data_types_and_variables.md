@@ -1,3 +1,10 @@
+# TOC
+* [Variable](/data_types_and_variables.md#variable)
+* [Data types](/data_types_and_variables.md#data-types)
+* [Numbers](/data_types_and_variables.md#numbers)
+* [Boolean](/data_types_and_variables.md#boolean)
+* [Str](/data_types_and_variables.md#str)
+
 ## Variable
 * other languages have variables, python has names
 * there is no keyword to declare variables in python
