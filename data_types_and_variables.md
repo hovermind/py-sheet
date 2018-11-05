@@ -65,4 +65,4 @@ name = "hassan"
 name: str = "hassan"
 ```
 
-**Tuple is discussed in deep-dive and list, set, dict are discussed in data-structure**
+**Note: Tuple is discussed in deep-dive and list, set, dict are discussed in data-structure**
