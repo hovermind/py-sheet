@@ -1,3 +1,9 @@
+# TOC
+* [Type inference](/type_related.md#type-inference)
+* [Type alias](/type_related.md#type-alias)
+* [GetType](/type_related.md#gettype)
+* [Type capacity](/type_related.md#type-capacity)
+
 ## Type inference
 In Python, every value has a datatype, but you don’t need to declare the datatype of variables. 
 How does that work? Based on each variable’s original assignment, Python figures out what type it is and keeps tracks of that internally.
