@@ -4,7 +4,7 @@
 * When declaring a tuple, the parentheses are optional
 
 ## Creating tuple
-```
+```python
 # empty tuple
 my_tuple = ()
 
@@ -19,12 +19,12 @@ my_tuple = ("mouse", [8, 4, 6], (1, 2, 3))
 ```
 ## Tuple with one element
 Creating a tuple with one element is a bit tricky. Having one element within parentheses is not enough. We will need a trailing comma to indicate that it is in fact a tuple.
-```
+```python
 my_tuple = ("hello",)  # not ("hello")
 ```
 
 ## Accessing tuple elements
-```
+```python
 tuple_name = (item1, item2, item3)
 val = tuple_name[index]  #accessing item at index
 
@@ -40,20 +40,20 @@ print(my_tuple[-1])  # 't'
 ```
 
 ## Iterating through a tuple
-```
+```python
 for name in ('John','Kate'):
      print("Hello",name) 
 ```
 
 ## Tuple membership test
-```
+```python
 my_tuple = ('a','p','p','l','e',)
 print('a' in my_tuple)  # True
 print('g' not in my_tuple)  # True
 ```
 
 ## Unpacking tuple
-```
+```python
 my_tuple = (3, "dog")
 
 (a, b) = my_tuple
@@ -64,7 +64,7 @@ print(b)  # "dog"
 ```
 
 ## Slicing
-```
+```python
 my_tuple = ('p','r','o','g','r','a','m','i','z')
 print(my_tuple[1:4])  # elements 2nd to 4th ('r', 'o', 'g')
 print(my_tuple[:-7])  # ('p', 'r')
@@ -73,18 +73,18 @@ print(my_tuple[7:])   # ('i', 'z')
 
 ## Changing tuple
 tuples are immutable (can not add, append, remove, delete elements)
-```
+```python
 my_tuple = (4, 2, 3, [6, 5])  
 my_tuple[1] = 9  # TypeError: 'tuple' object does not support item assignment
 ```
 If the element is itself a mutable datatype like list, its nested items can be changed
-```
+```python
 my_tuple = (4, 2, 3, [6, 5])
 my_tuple[3][0] = 9  # (4, 2, 3, [9, 5])
 ```
 `+` : concatenation    
 `*` : repeat the elements in a tuple for a given number of times
-```
+```python
 print((1, 2, 3) + (4, 5, 6))  # (1, 2, 3, 4, 5, 6)
 
 print(("Repeat",) * 3)  # ('Repeat', 'Repeat', 'Repeat')
@@ -93,28 +93,28 @@ print(("Repeat",) * 3)  # ('Repeat', 'Repeat', 'Repeat')
 
 ## Deleting a Tuple
 cannot delete or remove items from a tuple but deleting a tuple entirely is possible
-```
+```python
 my_tuple = (1, 2, 3, 4)
 del my_tuple
 my_tuple  # NameError: name 'my_tuple' is not defined
 ```
 ## Tuple methods
-`count(x)` :	Return the number of items that is equal to x    
-`index(x)` :	Return index of first item that is equal to x
-```
+* `count(x)` :	Return the number of items that is equal to x    
+* `index(x)` :	Return index of first item that is equal to x
+```python
 my_tuple = ('a','p','p','l','e',)
 print(my_tuple.count('p'))  # 2
 print(my_tuple.index('l'))  # 3
 ```
-`all()` : Return True if all elements of the tuple are true (or if the tuple is empty).   
-`any()` : Return True if any element of the tuple is true. If the tuple is empty, return False.   
-`enumerate()` : Return an enumerate object. It contains the index and value of all the items of tuple as pairs.   
-`len()` : Return the length (the number of items) in the tuple.   
-`max()` : Return the largest item in the tuple.   
-`min()` : Return the smallest item in the tuple   
-`sorted()` : Take elements in the tuple and return a new sorted list (does not sort the tuple itself).   
-`tuple()` : Convert an iterable (list, string, set, dictionary) to a tuple.   
-`sum()` : Retrun the sum of all elements in the tuple.
+* `all()` : Return True if all elements of the tuple are true (or if the tuple is empty).   
+* `any()` : Return True if any element of the tuple is true. If the tuple is empty, return False.   
+* `enumerate()` : Return an enumerate object. It contains the index and value of all the items of tuple as pairs.   
+* `len()` : Return the length (the number of items) in the tuple.   
+* `max()` : Return the largest item in the tuple.   
+* `min()` : Return the smallest item in the tuple   
+* `sorted()` : Take elements in the tuple and return a new sorted list (does not sort the tuple itself).   
+* `tuple()` : Convert an iterable (list, string, set, dictionary) to a tuple.   
+* `sum()` : Retrun the sum of all elements in the tuple.
 
 **Note:**    
 Tuples can be converted into lists, and vice-versa. The built-in tuple() function takes a list and returns a tuple with the same elements, and the list() function takes a tuple and returns a list. In effect, tuple() freezes a list, and list() thaws a tuple.
