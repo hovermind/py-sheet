@@ -5,8 +5,10 @@ How does that work? Based on each variable’s original assignment, Python figur
 
 ## Type alias
 Type aliases are defined by simple variable assignments:
-```
+```python
 Url = str
+
+# using Url (str) alias in retry function
 def retry(url: Url, retry_count: int) -> None: ...
 ```
 
