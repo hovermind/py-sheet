@@ -1,4 +1,16 @@
 # TOC
+* [Tuple](/tuple.md#tuple)
+* [Creating tuple](/tuple.md#creating-tuple)
+* [Tuple with one element](/tuple.md#tuple-with-one-element)
+* [Accessing tuple elements](/tuple.md#accessing-tuple-elements)
+* [Iterating through a tuple](/tuple.md#iterating-through-a-tuple)
+* [Tuple membership test](/tuple.md#tuple-membership-test)
+* [Unpacking tuple](/tuple.md#unpacking-tuple)
+* [Slicing](/tuple.md#slicing)
+* [Changing tuple](/tuple.md#changing-tuple)
+* [Deleting a Tuple](/tuple.md#deleting-a-tuple)
+* [Tuple methods](/tuple.md#tuple-methods)
+* [So what are tuples good for?](/tuple.md#so-what-are-tuples-good-for)
 
 ## Tuple
 * Tuples are immutable, which means their values at the indices cannot be changed, unless there is a value swap
