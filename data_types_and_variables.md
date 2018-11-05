@@ -1,10 +1,10 @@
 ## Variable
 * other languages have variables, python has names
 * there is no keyword to declare variables in python
-* True, False and None are uppercase, all other keywords in lowercase
+* `True`, `False` and `None` are uppercase, all other keywords in lowercase
 * python is case sensitive
 
-```
+```python
 x = 2
 
 name = "hassan"
@@ -15,8 +15,9 @@ stats: Dict[str, int] = {}
 
 foo = None    # ~ perl undef
 ```
-**Note**    
-It acts like dynamically typed, but it is statically typed behind the scene.Every value in Python has a datatype. Since everything is an object in Python programming, data types are actually classes and variables are instance (object) of these classes.
+**Notes**    
+* It acts like dynamically typed, but it is statically typed behind the scene.
+* Every value in Python has a datatype. Since everything is an object in Python programming, data types are actually classes and variables are instance (object) of these classes.
 
 ## Data types
 * **Numbers** can be integers (1 and 2), floats (1.1 and 1.2), fractions (1/2 and 2/3), or even complex numbers
@@ -33,7 +34,7 @@ It acts like dynamically typed, but it is statically typed behind the scene.Ever
 * A floating point number is accurate up to 15 decimal places
 * There’s no type declaration to distinguish int and float. Python apart them by the presence or absence of a decimal point
 * Complex numbers are written in the form, x + yj, where x is the real part and y is the imaginary part
-```
+```python
 a = 10      // Signed Integer
 a = 3.1416  // (.) Floating point real values
 a = 1 + 2j  // (J) Contains integer in the range 0 to 255.
@@ -45,7 +46,7 @@ a = 1 + 2j  // (J) Contains integer in the range 0 to 255.
 * Different datatypes have different rules about which values are true or false in a boolean context (i.e. if statement)
 * Python has two constants, cleverly named True and False
 * Don't treat True as 1, False as 0
-```
+```python
 x = 10
 if x > 5:
     ... ...
@@ -55,7 +56,7 @@ if x > 5:
 ## str
 * Python uses single quotes `'` double quotes `"` and triple quotes `"""` to denote literal strings
 * Multi-line strings can be denoted using triple quotes, `'''` or `"""`
-```
+```python
 message = "hello world"
 
 name: str
@@ -64,8 +65,4 @@ name = "hassan"
 name: str = "hassan"
 ```
 
-**See:**     
-### [tuple](https://github.com/hovermind/pycheatsheet/blob/master/tuple.md)     
-### [list](https://github.com/hovermind/pycheatsheet/blob/master/list.md)
-### [set](https://github.com/hovermind/pycheatsheet/blob/master/set.md)
-### [dict](https://github.com/hovermind/pycheatsheet/blob/master/dict.md)
+**Tuple is discussed in deep-dive and list, set, dict are discussed in data-structure**
