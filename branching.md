@@ -1,6 +1,6 @@
 # TOC
 * [if-else](/branching.md#if-else)
-* [Short hand if-else](#)
+* [Short hand if-else](/branching.md#short-hand-if-else)
 
 ## if-else
 ```python
