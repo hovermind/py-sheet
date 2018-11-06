@@ -3,7 +3,7 @@
 * [foreach](/looping.md#foreach)
 * [iterating over range](/looping.md#iterating-over-range)
 * [while](/looping.md#while)
-* [Else with for and while](#)
+* [Else with for and while](/looping.md#else-with-for-and-while)
 
 ## for
 ```python
