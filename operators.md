@@ -1,3 +1,7 @@
+# TOC
+* [Python operators](/operators.md#python-operators)
+* [Operator functions](/operators.md#-perator-functions)
+
 ## Python operators
 * standard c operators except `and`, `or`, `not` instead of `&&`, `||`, `!`
 * bitwise operators are same as c: `&, |, ~, ^, >>, <<`
@@ -21,7 +25,7 @@
 |Containment | Test	obj in seq | contains(seq, obj) |
 |Division	| a / b	| truediv(a, b) |
 |Division	| a // b | floordiv(a, b) |
-|Bitwise And | a & b | and_(a, b) |
+|Bitwise And | a & b | and(a, b) |
 |Bitwise Exclusive Or	| a ^ b |	xor(a, b) |
 |Bitwise Inversion | ~ a | invert(a) |
 |Bitwise Or	| a | b	| or_(a, b) |
