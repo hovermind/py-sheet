@@ -1,13 +1,18 @@
 # TOC
 * [Implicit casting](/type_casting.md#implicit-casting)
 * [Explicit casting](/type_casting.md#explicit-casting)
-
+  * [int <-> float](/type_casting.md#int-float)
+  * [str](/type_casting.md#str)
+  * [complex](/type_casting.md#complex)
+  * [is](/type_casting.md#is)
+  * [as](/type_casting.md#as)
+  
 ## Implicit casting
 * `int + float = float` => Python coerces the int into a float to perform the addition, then returns a float as the result
 
 
 ## Explicit casting
-#### int - float
+#### int-float
 * `int(x [, base])`
 * The `int()` function will truncate, not round
 * The `int()` function truncates negative numbers towards 0. It’s a true truncate function, not a floor function
