@@ -1,3 +1,7 @@
+# TOC
+* [if-else](/branching.md#if-else)
+* [Short hand if-else](#)
+
 ## if-else
 ```python
 if expression:
