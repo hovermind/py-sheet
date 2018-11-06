@@ -16,3 +16,6 @@ else:
 ```python
 print("A") if a > b else print("B")
 ```
+
+## switch
+**Python does not have switch**
