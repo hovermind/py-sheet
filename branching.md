@@ -1,6 +1,7 @@
 # TOC
 * [if-else](/branching.md#if-else)
-* [Short hand if-else](/branching.md#short-hand-if-else)
+* [ternary](/branching.md#ternary)
+* [switch](/branching.md#switch)
 
 ## if-else
 ```python
@@ -12,10 +13,17 @@ else:
     print("baz")
 ```
 
-## Short hand if-else
+## ternary
 ```python
 print("A") if a > b else print("B")
 ```
 
 ## switch
-**Python does not have switch**
+python does not have switch => use hack:
+```python
+def f(x):
+    return {
+        'a': 1,
+        'b': 2
+    }.get(x, 9)    # 9 is default if x not found
+```
