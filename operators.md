@@ -1,21 +1,17 @@
-#### standard c operators except `and`, `or`, `not` instead of `&&`, `||`, `!`
-
-#### bitwise operators are same as c: `&, |, ~, ^, >>, <<`
-
-#### python specific operators: `/, //, **, in, not in`
-
-**`/`:**
-* performs floating point division
-* returns float even if both the numerator and denominator are ints    
-
-**`//`:**
-* quirky kind of integer division. When result is positive, you can think of it as truncating to 0 decimal places
-* When integer-dividing negative numbers, `//` operator rounds “up” to the nearest integer
-* doesn’t always return an integer. If either the numerator or denominator is a float, it will still round to the nearest integer, but the actual return value will be a float  
-
-**`**`:**
-* operator means “raised to the power of"
-* `base ** exponent` => `pow(base, exponent)`
+## Python operators
+* standard c operators except `and`, `or`, `not` instead of `&&`, `||`, `!`
+* bitwise operators are same as c: `&, |, ~, ^, >>, <<`
+* python specific operators: `/, //, **, in, not in`
+  * **`/`:**
+    * performs floating point division
+    * returns float even if both the numerator and denominator are ints    
+  * **`//`:**
+    * quirky kind of integer division. When result is positive, you can think of it as truncating to 0 decimal places
+    * When integer-dividing negative numbers, `//` operator rounds “up” to the nearest integer
+    * doesn’t always return an integer. If either the numerator or denominator is a float, it will still round to the nearest integer, but the actual return value will be a float  
+  * **`**`:**
+    * operator means “raised to the power of"
+    * `base ** exponent` => `pow(base, exponent)`
 
 ## Operator functions
 |Operation | Syntax | Function |
