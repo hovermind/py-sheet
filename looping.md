@@ -58,7 +58,7 @@ while boolean_expression:
 # termination by limit
 count = 0 
 for count in range(5):
-    print(count++)
+    print(++count)
 else:
     print("count value reached 5")
     
