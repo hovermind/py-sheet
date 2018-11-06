@@ -1,14 +1,17 @@
+# TOC
+
+## String
 * A sequence of Unicode character & immutable
 * Uses single quotes `'` double quotes `"` to denote literal strings
 * Multi-line strings can be denoted using triple quotes, `'''` or `"""`
 * slicing operator [ ] can be used with string (list/array of chars)
-```
+```python
 hooman = 'hooman'
 hovermind = "hovermind"
 ```
 
 ## String interpolation
-```
+```python
 hooman = "hooman"
 hovermind = "hovermind"
 
@@ -16,9 +19,10 @@ print(f"Hello {hooman}!")
 
 print("Hello {hooman}!, I am {hovermind}\n".format_map(locals()))
 ```
+
 ## Escape sequence
-escape sequence: `\` or `'''`
-```
+* escape sequence: `\` or `'''`
+```python
 # using triple quotes
 print('''He said, "What's there?"''')
 
@@ -28,14 +32,15 @@ print('He said, "What\'s there?"')
 # escaping double quotes
 print("He said, \"What's there?\"")
 ```
-Raw  string : use r or R in front of string
-```
+
+**Raw  string :** use r or R in front of string
+```python
 print(r"This is \x61 \ngood example")   # This is \x61 \ngood example
 ```
 
 ## Split
 `string.split('delimeter' [, maxsplit = n])`
-```
+```python
 test = "1, 2, 3"
 splitted = test.split(',')                     # ['1', '2', '3']
 split_one = test.split(',',  maxsplit = 1)     # ['1', '2, 3']
@@ -43,7 +48,7 @@ split_one = test.split(',',  maxsplit = 1)     # ['1', '2, 3']
 
 ## Join
 `string.join(iterable)` (list/set/dict/string). list/set items & dict keys must be string (for dict, keys will be used)
-```
+```python
 my_list = ["1", "2", "3"]
 my_set = {'1', '2', '3'}
 
@@ -57,7 +62,7 @@ final_str = separator.join(my_dict)    # "1|2"
 ```
 
 ## Concatenation
-```
+```python
 h = "hello"
 w = "world"
 hw = h + w
@@ -74,7 +79,7 @@ hw = ('Hello '
 
 ## Format specifier
 same as C# -> `:` 
-```
+```python
 testNum = 123456789
 testFloat = 7141.6247234
 PI = 3.1416247234
@@ -99,7 +104,7 @@ print(f"{test_date :%Y-%m-%d %H:%M:%S}")
 ```
 
 ## String template
-```
+```python
 from string import Template
 
 strTemplate = Template('$who likes $what')
@@ -123,7 +128,7 @@ print("{strFinal}")   # hovermind likes $what
 ```
 
 ## Iterating and membership test
-```
+```python
 hw = 'Hello World'
 
 count = 0
@@ -139,7 +144,7 @@ print(count,'letters found')
 
 ## Accessing characters in a string
 List of chars. We can access individual characters using indexing and a range of characters using slicing. Negative indexing also possible.
-```
+```python
 hooman = 'hooman'
 m = hooman[3]
 n = hooman[-1]
@@ -148,7 +153,7 @@ man = hooman[3:6]
 
 ## Change or delete a string
 Strings are immutable that means elements of a string cannot be changed. String variable can be re-assigned.
-```
+```python
 hooman = "hooman"
 hooman[1] = 'u'        # TypeError: 'str' object does not support item assignment
 del hooman[1]          # TypeError: 'str' object doesn't support item deletion
