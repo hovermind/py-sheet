@@ -1,6 +1,6 @@
 # TOC
 * [Python operators](/operators.md#python-operators)
-* [Operator functions](/operators.md#-perator-functions)
+* [Operator functions](/operators.md#operator-functions)
 
 ## Python operators
 * standard c operators except `and`, `or`, `not` instead of `&&`, `||`, `!`
