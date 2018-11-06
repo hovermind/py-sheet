@@ -3,23 +3,22 @@
 * [Explicit casting](/type_casting.md#explicit-casting)
 
 ## Implicit casting
-Python coerces the int into a float to perform the addition, then returns a float as the result
-```python
-int + float = float
-```
+* `int + float = float` => Python coerces the int into a float to perform the addition, then returns a float as the result
+
 
 ## Explicit casting
 #### int - float
 * `int(x [, base])`
 * The `int()` function will truncate, not round
 * The `int()` function truncates negative numbers towards 0. It’s a true truncate function, not a floor function
-```
+```python
 floatVal = float(5) # 5.0
 
 intVal = int(5.5) # 5
 ```
+
 #### str
-```
+```python
 myInt = 5
 myFloat = 5.5
 strInt = str(myInt)
@@ -31,7 +30,7 @@ intValue = int("5")
 **Note:** `int("5.5")` will be error, because `"5.5"` will be parsed to float. `int(float("5.5"))` is ok
 
 #### complex
-```
+```python
 complex(real [,imag])  # Creates a complex number.
 repr(x)                # Converts object x to an expression string.
 eval(str)              # Evaluates a string and returns an object.
@@ -48,8 +47,8 @@ oct(x)                 # Converts an integer to an octal string.
 ```
 
 #### is
-`==` operator is used to test if two variables are equal or not, `is` is used to test if the two variables refer to the same object.
-```
+* `==` operator is used to test if two variables are equal or not, `is` is used to test if the two variables refer to the same object.
+```python
 [] == []            # True
 [] is []            # False
 {} == {}            # True
@@ -57,8 +56,8 @@ oct(x)                 # Converts an integer to an octal string.
 ```
 
 #### as
-`as` is used to create an alias while importing a module.
-```
+* `as` is used to create an alias while importing a module.
+```python
 import math as myAlias
 
 myAlias.cos(myAlias.pi)
