@@ -1,4 +1,9 @@
 # TOC
+* [for](/looping.md#for)
+* [foreach](/looping.md#foreach)
+* [iterating over range](/looping.md#iterating-over-range)
+* [while](/looping.md#while)
+* [Else with for and while](#)
 
 ## for
 ```python
@@ -53,7 +58,7 @@ while boolean_expression:
 # termination by limit
 count = 0 
 for count in range(5):
-    print(++count)
+    print(count++)
 else:
     print("count value reached 5")
     
