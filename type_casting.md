@@ -1,6 +1,12 @@
+# TOC
+* [Implicit casting](/type_casting.md#implicit-casting)
+* [Explicit casting](/type_casting.md#explicit-casting)
+
 ## Implicit casting
-`int + float = float`    
-Python coerces the int into a float to perform the addition, then returns a float as the result.
+Python coerces the int into a float to perform the addition, then returns a float as the result
+```python
+int + float = float
+```
 
 ## Explicit casting
 #### int - float
