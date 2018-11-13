@@ -1,4 +1,9 @@
 # TOC
+* [Array in python](/array.md#array-in-python)
+* [Array length](/array.md#array-length)
+* [Append and insert](/array.md#append-and-insert)
+* [Initializing array](/array.md#initializing-array)
+* [Using library to initialize](/array.md#using-library-to-initialize)
 
 
 ## Array in python
