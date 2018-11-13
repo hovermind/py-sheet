@@ -7,7 +7,7 @@
 * [type casting](https://github.com/hovermind/pycheatsheet/blob/master/type_casting.md)
 * [operators](https://github.com/hovermind/pycheatsheet/blob/master/operators.md)
 * [branching](https://github.com/hovermind/pycheatsheet/blob/master/branching.md)
-* [looping](#)
+* [looping](https://github.com/hovermind/pycheatsheet/blob/master/looping.md)
 * [string](https://github.com/hovermind/pycheatsheet/blob/master/string.md)
 * [function](https://github.com/hovermind/pycheatsheet/blob/master/function.md)
 * [exception](https://github.com/hovermind/pycheatsheet/blob/master/exception.md)
