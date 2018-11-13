@@ -46,6 +46,15 @@ Everything in Python is an object (in the sense that it can be assigned to a var
 
 A function, like everything else in Python, is an object. All functions have a built-in attribute __doc__, which returns the docstring defined in the function’s source code.
 ```python
-print(my_module.my_func.__doc__) #Prints a person's name with Mr/Mrs depending on gender
+print(my_module.my_func.__doc__) 
+
+>>>
+  Prints a person's name with Mr/Mrs depending on gender
+
+  Keyword arguments:
+  name -- name of the person
+  gender -- gender of the person
+
+  Returns: string
 ```
 In Python, functions are first-class objects. You can pass a function as an argument to another function.
