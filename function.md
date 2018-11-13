@@ -1,7 +1,7 @@
 # TOC
-* [Function Definition](#)
-* [Calling function](#)
-* [Meta](#)
+* [Function Definition](/function.md#function-definition)
+* [Calling function](/function.md#calling-function)
+* [Meta](/function.md#meta)
 
 ## Function Definition
 * use `def` keyword
