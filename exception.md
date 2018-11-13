@@ -1,7 +1,7 @@
 # TOC
-* [Try-catch](#)
-* [Raising exception](#)
-* [Catching import error](#)
+* [Try-catch](/exception.md#try-catch)
+* [Raising exception](/exception.md#raising-exception)
+* [Catching import error](/exception.md#catching-import-error)
 
 ## Try-catch
 * `try...except` blocks to handle exceptions
