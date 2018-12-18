@@ -11,7 +11,7 @@
 
 ## Initializing array
 * `array.array(typecode[, initializer])`
-* about typecode: https://docs.python.org/3/library/array.html
+* See [type code](https://docs.python.org/3/library/array.html#module-array)
 ```python
 from array import array
 
