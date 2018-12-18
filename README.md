@@ -14,7 +14,7 @@
 * data structures
     * [array](https://github.com/hovermind/py-sheet/blob/master/array.md)
     * [list](https://github.com/hovermind/py-sheet/blob/master/list.md)
-    * [map](#)
+    * [dict](https://github.com/hovermind/py-sheet/blob/master/dict.md)
     * [set](#)
     * [stack](#)
     * [queue](#)
