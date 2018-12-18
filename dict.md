@@ -1,5 +1,13 @@
+# TOC
+
+## Python dictionary
 * unordered collection of key-value pair
 * keys must be unique and immutable
+```
+my_dict1 = {}                                            # empty dictionary
+my_dict2 = {1: 'apple', 2: 'ball'}                       # dictionary with integer keys
+my_dict3 = {'name': 'John', 1: [2, 4, 3]}                # dictionary with mixed keys
+```
 
 ## Creating dictionary
 ```
@@ -71,7 +79,7 @@ my_dict['age'] = 27                 # {'name':'Jack', 'age': 27}
 my_dict['address'] = 'Downtown'     # {'address': 'Downtown', 'age': 27, 'name': 'Jack'}
 ```
 
-## Remove delete element
+## Remove element
 `pop(key)` : removes & returns    
 `popitem()` : random element    
 `clear()` : removes all items    
@@ -89,7 +97,30 @@ del squares[5]
 del squares
 ```
 
-## Methods
-`len(dict)` : Return the length (the number of items) in the dictionary    
-`sorted(dict)` : eturn a new sorted list of keys in the dictionary    
+## Operators on dictionary
+```
+len(my_dict)                      # returns the number of stored entries, i.e. the number of (key,value) pairs.
+del my_dict[k]                    # deletes the key k together with his value
+k in my_dict                      # True, if a key k exists in the dictionary my_dict
+k not in my_dict                  # True, if a key k doesn't exist in the dictionary my_dict
+
+del my_dict[k]          # delete a particular item
+my_dict.clear()         # remove all items
+del my_dict             # delete the dictionary itself
+```
+
+## Dictionary methods
+* len(dict) : Return the length (the number of items) in the dictionary    
+* sorted(dict) : eturn a new sorted list of keys in the dictionary
+* clear() : Remove all items form the dictionary
+* copy() : Return a shallow copy of the dictionary
+* fromkeys(seq[, v]) : Return a new dictionary with keys from seq and value equal to v (defaults to None)
+* get(key[,d]) : Return the value of key. If key doesnot exit, return d (defaults to None)
+* items() : Return a new view of the dictionary's items (key, value)
+* keys() : Return a new view of the dictionary's keys
+* pop(key[,d]) : Remove the item with key and return its value or d if key is not found
+* popitem() : Remove and return an arbitary item (key, value). Raises KeyError if the dictionary is empty
+* setdefault(key[,d]) : If key is in the dictionary, return its value. If not, insert key with a value of d and return d
+* update([other]) : Update the dictionary with the key/value pairs from other, overwriting existing keys
+* values() : Return a new view of the dictionary's values
 ## See : [python dictionary methods](https://www.programiz.com/python-programming/methods/dictionary/)
