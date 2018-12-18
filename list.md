@@ -1,3 +1,14 @@
+# TOC
+* [Python list](#python-list)
+* [Creating list](#creating-list)
+* [Accessing list item](#accessing-list-item)
+* [Iterating trough a list](#iterating-trough-a-list)
+* [Slicing list](#slicing-list)
+* [Adding items to list](#adding-items-to-list)
+* [Altering item](#altering-item)
+* [Removing item](#removing-item)
+* [List Membership Test](#list-membership-test)
+
 ## Python list
 * `[ ]` zero-based
 * odered collection of items (retain their original order)
