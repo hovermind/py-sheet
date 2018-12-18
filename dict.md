@@ -1,4 +1,13 @@
 # TOC
+* [Python dictionary](#Python-dictionary)
+* [Creating dictionary](#Creating-dictionary)
+* [Accessing element](#Accessing-element)
+* [Itereting](#Itereting)
+* [Membership test](#Membership-test)
+* [Add update element](#Add-update-element)
+* [Remove element](#Remove-element)
+* [Operators on dictionary](#Operators-on-dictionary)
+* [Dictionary methods](#Dictionary-methods)
 
 ## Python dictionary
 * unordered collection of key-value pair
