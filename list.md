@@ -1,10 +1,22 @@
-* `[ , , ]` zero-based
+## Python list
+* `[ ]` zero-based
 * odered collection of items (retain their original order)
 * can have any number of items and items can be of different types (python keeps track of the datatype internally)
 * lists are mutable (value of elements of a list can be altered)
 * A list can be used like a zero-based array
+
+**Syntax**
 ```
 myList = [0, 1, 2, 3]
+
+# init with values (can contain mixed types)
+arr = [1, "lol"]
+arr = [1, 2, 3, 4, 5, 6]
+```
+
+**length**
+```
+length = len(arr)
 ```
 
 ## Creating list
