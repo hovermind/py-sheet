@@ -11,12 +11,12 @@ class Color(Enum):
 * even though we use the class syntax to create Enums, Enums are not normal Python classes
 * two enum members with the same name is invalid, but two members can have same value (to ensure unique enumeration values: `from enum import Enum, unique`)
 * info about enum with `repr `
-```
+```python
 print(repr(Color.RED))    # Color.RED: 1
 ```
 
 [Alternative syntax](https://stackoverflow.com/a/1695250/4802664)
-```
+```python
 from enum import Enum 
 
 Animal = Enum('Animal', 'cat dog')
@@ -27,7 +27,7 @@ Animal.cat.name  # returns 'cat' (inverse lookup)
 ```
 
 ## Using automatic values
-```
+```python
 from enum import Enum, auto
 class Color(Enum):
     RED = auto()
@@ -42,7 +42,7 @@ list(Color)    # [<Color.RED: 1>, <Color.BLUE: 2>, <Color.GREEN: 3>]
 * by value: `Color(1)`
 
 ## Enum member name and value
-```
+```python
 from enum import Enum
 class Color(Enum):
     RED = 1
@@ -57,7 +57,7 @@ print(Color.RED.value)    # 1
 ```
 
 ## Iterating over enum members
-```
+```python
 class Shake(Enum):
     VANILLA = 7
     CHOCOLATE = 4
