@@ -12,7 +12,7 @@
 * [function](https://github.com/hovermind/pycheatsheet/blob/master/function.md)
 * [exception](https://github.com/hovermind/pycheatsheet/blob/master/exception.md)
 * data structures
-    * [array](#)
+    * [array](https://github.com/hovermind/py-sheet/blob/master/array.md)
     * [list](#)
     * [map](#)
     * [see](#)
