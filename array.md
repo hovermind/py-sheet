@@ -1,7 +1,6 @@
 # TOC
 * [Array in python](/array.md#array-in-python)
 * [Initializing array](/array.md#initializing-array)
-* [Initializing array](/array.md#accessing-array-element)
 * [Accessing array element](/array.md#accessing-array-element)
 * [Adding element](/array.md#adding-element)
 * [Deleting element](/array.md#deleting-element)
