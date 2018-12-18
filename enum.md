@@ -1,3 +1,10 @@
+# TOC
+* [Python enum](#Python-enum)
+* [Using automatic values](#Using-automatic-values)
+* [Accessing enum member](#Accessing-enum-member)
+* [Enum member name and value](#Enum-member-name-and-value)
+* [Iterating over enum members](#Iterating-over-enum-members)
+
 ## Python enum
 ```python
 from enum import Enum
