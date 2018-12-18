@@ -8,6 +8,7 @@
 * [Altering item](#altering-item)
 * [Removing item](#removing-item)
 * [List Membership Test](#list-membership-test)
+* [List methods](#list-methods)
 
 ## Python list
 * `[ ]` zero-based
@@ -146,5 +147,24 @@ print('a' in my_list)      # False
 
 print('c' not in my_list)  # True
 ```
+
+## List methods
+* len() : Return the length (the number of items) in the list
+* list() : Convert an iterable (tuple, string, set, dictionary) to a list
+* max()	: Return the largest item in the list
+* min() : Return the smallest item in the list
+* sorted() : Return a new sorted list (does not sort the list itself)
+* sum() : Return the sum of all elements in the list
+* append() : Add an element to the end of the list
+* extend() : Add all elements of a list to the another list
+* insert() : Insert an item at the defined index
+* remove() : Removes an item from the list
+* pop() : Removes and returns an element at the given index
+* clear() : Removes all items from the list
+* index() : Returns the index of the first matched item
+* count() : Returns the count of number of items passed as an argument
+* sort() : Sort items in a list in ascending order
+* reverse() : Reverse the order of items in the list
+* copy() : Returns a shallow copy of the list
 
 ## See: [List Methods and Built-in Functions with List](https://www.programiz.com/python-programming/methods/list/)
