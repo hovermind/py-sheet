@@ -1,9 +1,12 @@
 # TOC
 * [Array in python](/array.md#array-in-python)
-* [Array length](/array.md#array-length)
-* [Append and insert](/array.md#append-and-insert)
 * [Initializing array](/array.md#initializing-array)
-* [Using library to initialize](/array.md#using-library-to-initialize)
+* [Initializing array](/array.md#accessing-array-element)
+* [Accessing array element](/array.md#accessing-array-element)
+* [Adding element](/array.md#adding-element)
+* [Deleting element](/array.md#deleting-element)
+* [Slicing array](/array.md#slicing-array)
+* [Misc](/array.md#misc)
 
 ## Array in python
 * a thin wrapper on C arrays
@@ -84,9 +87,8 @@ print(numbers_array[:])   # beginning to end
 * you can concatenate two arrays using + operator
 * you can divide an array by n, and each number in the array will be divided by n
 
-## When to use arrays?
-Lists are much more flexible than arrays. They can store elements of different data types including string. Also, lists are faster than arrays. 
-And, if you need to do mathematical computation on arrays and matrices, you are much better off using something like NumPy library.
+**When to use arrays?**
+Lists are much more flexible than arrays. They can store elements of different data types including string. Also, lists are faster than arrays. And, if you need to do mathematical computation on arrays and matrices, you are much better off using something like NumPy library.
 
 
 
