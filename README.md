@@ -15,7 +15,7 @@
     * [array](https://github.com/hovermind/py-sheet/blob/master/array.md)
     * [list](https://github.com/hovermind/py-sheet/blob/master/list.md)
     * [map](#)
-    * [tree](#)
+    * [set](#)
     * [stack](#)
     * [queue](#)
 * [enum](#)
