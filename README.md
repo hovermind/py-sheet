@@ -13,9 +13,9 @@
 * [exception](https://github.com/hovermind/pycheatsheet/blob/master/exception.md)
 * data structures
     * [array](https://github.com/hovermind/py-sheet/blob/master/array.md)
-    * [list](#)
+    * [list](https://github.com/hovermind/py-sheet/blob/master/list.md)
     * [map](#)
-    * [see](#)
+    * [tree](#)
     * [stack](#)
     * [queue](#)
 * [enum](#)
