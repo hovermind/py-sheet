@@ -1,6 +1,7 @@
 # TOC
 * [Class in python](#Class-in-python)
 * [Constructor](#Constructor)
+* [New style class](#New-style-class)
 * [Access modifier](#Access-modifier)
 * [Creating new object instance](#Creating-new-object-instance)
 * [Class variable vs instance variable](#Class-variable-vs-instance-variable)
