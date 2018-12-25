@@ -59,6 +59,28 @@ c1 = ComplexNumber(2, 3)
 print(c1.getData())     # Output: 2 + 3j
 ```
 
+## New style class
+* introduced in Python 2.1
+* the major difference :
+  * old base classes do not inherit from anything
+  * new style base classes inherit from object
+
+A very basic example is:
+```
+class OldClass():
+    def __init__(self):
+        print('I am an old class')
+
+class NewClass(object):
+    def __init__(self):
+        print('I am a jazzy new class')
+
+old = OldClass()    # Output: I am an old class
+new = NewClass()    # Output: I am a jazzy new class
+```
+
+**Note:** Always try to use new-style classes.
+
 ## Access modifier
 * nothing in Python makes it possible to enforce data hiding — it is all based upon convention.
 * `Private` instance variables that cannot be accessed except from inside an object don’t exist in Python. 
