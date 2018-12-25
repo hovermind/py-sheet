@@ -20,7 +20,7 @@
     * [Using Lists as Queues](https://docs.python.org/2/tutorial/datastructures.html#using-lists-as-queues)
 * [enum](https://github.com/hovermind/py-sheet/blob/master/enum.md)
 * [structure](#)
-* [class](#)
+* [class](https://github.com/hovermind/py-sheet/blob/master/class.md)
 * [interface](#)
 * [deep dive](#)
     * [tuple](https://github.com/hovermind/pycheatsheet/blob/master/tuple.md)
