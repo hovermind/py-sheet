@@ -1,5 +1,4 @@
-## [Iterator](https://docs.python.org/3/tutorial/classes.html#iterators) and [Generator](https://docs.python.org/3/tutorial/classes.html#generators)
-**Iterator**
+## [Iterator](https://docs.python.org/3/tutorial/classes.html#iterators)
 ```
 class Reverse:
     """Iterator for looping over a sequence backwards."""
@@ -17,7 +16,7 @@ class Reverse:
         return self.data[self.index]
 ```
 
-**Generator**   
+## [Generator](https://docs.python.org/3/tutorial/classes.html#generators) 
 Generators are a simple and powerful tool for creating iterators. 
 What makes generators so compact is that the __iter__() and __next__() methods are created automatically.
 ```
