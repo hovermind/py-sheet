@@ -1,3 +1,14 @@
+# TOC
+* [Class in python](#Class-in-python)
+* [Constructor](#Constructor)
+* [Access modifier](#Access-modifier)
+* [Creating new object instance](#Creating-new-object-instance)
+* [Class variable vs instance variable](#Class-variable-vs-instance-variable)
+* [Function vs method](#Function-vs-method)
+* [Class method](#Class-method)
+* [Inheritance](#Inheritance)
+* [Multiple inheritance](#Multiple-inheritance)
+
 ## Class in python
 * a class creates a new local namespace where all its attributes are defined. Attributes may be data or functions. There are also special attributes in it that begins with double underscores (`__`). For example, `__doc__` gives us the docstring of that class.
 * the method function is declared with an explicit first argument representing the object
