@@ -1,5 +1,11 @@
 #### Python does not have c-like structure.
 
+# TOC
+* [Class as structure](#Class-as-structure)
+* [Named tuple as structure](Named-tuple-as-structure)
+* [Improved NamedTuple](#Improved-NamedTuple)
+* [Data Classes](#Data-Classes)
+
 ## Class as structure
 An empty class definition can ack like structure:
 ```python
