@@ -21,7 +21,7 @@
 * [enum](https://github.com/hovermind/py-sheet/blob/master/enum.md)
 * [structure](https://github.com/hovermind/py-sheet/blob/master/structure.md)
 * [class](https://github.com/hovermind/py-sheet/blob/master/class.md)
-* [interface](#)
+* [interface](https://github.com/hovermind/py-sheet/blob/master/interface.md)
 * [deep dive](#)
     * [tuple](https://github.com/hovermind/pycheatsheet/blob/master/tuple.md)
     * [Iterator and generator](https://github.com/hovermind/py-sheet/blob/master/iterator-and-generator.md)
