@@ -19,7 +19,7 @@
     * [Using Lists as Stacks](https://docs.python.org/2/tutorial/datastructures.html#using-lists-as-stacks)
     * [Using Lists as Queues](https://docs.python.org/2/tutorial/datastructures.html#using-lists-as-queues)
 * [enum](https://github.com/hovermind/py-sheet/blob/master/enum.md)
-* [structure](#)
+* [structure](https://github.com/hovermind/py-sheet/blob/master/structure.md)
 * [class](https://github.com/hovermind/py-sheet/blob/master/class.md)
 * [interface](#)
 * [deep dive](#)
