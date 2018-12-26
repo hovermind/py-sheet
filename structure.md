@@ -2,7 +2,7 @@
 
 # TOC
 * [Class as structure](#Class-as-structure)
-* [Named tuple as structure](Named-tuple-as-structure)
+* [Named tuple as structure](#Named-tuple-as-structure)
 * [Improved NamedTuple](#Improved-NamedTuple)
 * [Data Classes](#Data-Classes)
 
