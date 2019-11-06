@@ -15,7 +15,15 @@ print("Total score for", name, "is", score)
 
 # If you don't want spaces to be inserted automatically
 print("Total score for ", name, " is ", score, sep='')
+
+# substituion by %
+x = 2
+y = 3
+print('(x, y) : (%s, %s)' % (x, y))
 ```
+More:
+* https://www.programiz.com/python-programming/methods/built-in/print
+* https://docs.python.org/3/tutorial/inputoutput.html
 
 ## Printing interpolated string
 ```python
@@ -26,6 +34,8 @@ print(f"Hello {hooman}!")
 
 print("Hello {hooman}!, I am {hovermind}\n".format_map(locals()))
 ```
+More:
+* https://www.programiz.com/python-programming/string-interpolation
 
 ## Comment
 * single line: `# this is single line commenct`
