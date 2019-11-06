@@ -15,11 +15,6 @@ print("Total score for", name, "is", score)
 
 # If you don't want spaces to be inserted automatically
 print("Total score for ", name, " is ", score, sep='')
-
-# substituion by %
-x = 2
-y = 3
-print('(x, y) : (%s, %s)' % (x, y))
 ```
 More:
 * https://www.programiz.com/python-programming/methods/built-in/print
