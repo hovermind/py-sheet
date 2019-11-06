@@ -17,6 +17,7 @@ print("Total score for", name, "is", score)
 print("Total score for ", name, " is ", score, sep='')
 ```
 More:
+* https://realpython.com/python-print/
 * https://www.programiz.com/python-programming/methods/built-in/print
 * https://docs.python.org/3/tutorial/inputoutput.html
 
