@@ -35,6 +35,12 @@ foo = None    # ~ perl undef
 * **Lists** are ordered sequences of values
 * **Sets** are unordered bags of values
 * **Dictionaries** are unordered bags of key-value pairs
+* Any:
+  ```python
+    # Use Any if you don't know the type of something or it's too
+    # dynamic to write a type for
+    x: Any = mystery_function()
+  ```
 
 ## Numbers
 * Integers are signed can be of any length, it is only limited by the memory available
