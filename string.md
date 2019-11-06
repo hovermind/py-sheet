@@ -44,7 +44,7 @@ print('He said, "What\'s there?"')
 print("He said, \"What's there?\"")
 ```
 
-**Raw  string :** use r or R in front of string
+**Raw  string (C# verbatim string) :** use r or R in front of string
 ```python
 print(r"This is \x61 \ngood example")   # This is \x61 \ngood example
 ```
