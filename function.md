@@ -6,7 +6,7 @@
 ## Function Definition
 * use `def` keyword
 * doesn’t define a return datatype but aways returns a value (return statement or `None` if no return statement)
-* no datatypes for arguments
+* arguments datatypes are optional (can be omitted) 
 * defualt value for arguments & named arguments are same as C# (named argument is last or all arguments are named)
 * the docstring is available at runtime as an attribute of the function (IDE shows as tooltip)
 ```python
