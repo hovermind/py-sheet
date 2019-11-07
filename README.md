@@ -31,4 +31,4 @@
 * [IO](#)
   * [stdin (keyboard input)](/stdin.md)
   * stdout -> [print](/printing_and_comment.md#print-function) (covered before)
-  * [basic file access](/basic-file-access.md)
+  * [basic file operations](/basic-file-operations.md)
