@@ -27,7 +27,7 @@
   * [tuple](https://github.com/hovermind/pycheatsheet/blob/master/tuple.md)
   * [Iterator and generator](https://github.com/hovermind/py-sheet/blob/master/iterator-and-generator.md)
   * [Indexer](https://github.com/hovermind/py-sheet/blob/master/indexer.md)
-  * Data class: [python-data-classes details](https://realpython.com/python-data-classes/) | [data class vs common class](https://stackoverflow.com/questions/47955263/what-are-data-classes-and-how-are-they-different-from-common-classes)
+  * [Data class](/structure.md#data-classes) ([python-data-classes details](https://realpython.com/python-data-classes/) | [data class vs common class](https://stackoverflow.com/questions/47955263/what-are-data-classes-and-how-are-they-different-from-common-classes))
 * [IO](#)
   * [stdin (keyboard input)](/stdin.md)
   * stdout -> [print](/printing_and_comment.md#print-function) (covered before)
