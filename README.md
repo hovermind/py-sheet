@@ -26,6 +26,7 @@
     * [tuple](https://github.com/hovermind/pycheatsheet/blob/master/tuple.md)
     * [Iterator and generator](https://github.com/hovermind/py-sheet/blob/master/iterator-and-generator.md)
     * [Indexer](https://github.com/hovermind/py-sheet/blob/master/indexer.md)
+    * [Data class](#)
 * [IO](#)
 
   
