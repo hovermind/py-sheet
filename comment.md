@@ -1,4 +1,23 @@
 # TOC
+* [Comment](#Comment)
+* [Doc comment](#Doc-comment)
+
+## Comment
+* single line: `# this is single line commenct`
+* multi-line:
+```python
+''' This is 
+    Multi-line comment 
+    in python
+'''
+
+# to avoid new line after """, use '\'
+"""\
+This is an example
+of a multi-line string
+in Python.
+""" 
+```
 
 ## Doc comment
 ```python
