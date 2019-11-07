@@ -66,8 +66,13 @@ fooFile.close()
 ```
 
 ## with Statement - C# IDisposible
-* context manager
 * similar to C# using or java try-with-resources or swift deferred execution
+* with context manager - sub-environment” under which the code is executed
+* The with statement allows a special instantiation of an object, where:
+  * `__enter__` method is executed when the object is instantiated
+  * `__exit__` method is executed when the with statement is exited
+  * these methods are executed whether an exception is raised or not
+  * The open object has a close method contained within its `__exit__` method (therefore if any exception is raised, Python will cleanly close the file and exit)
 
 A with statement has the format:
 ```text
