@@ -1,6 +1,6 @@
 ## open()
 ```python
-fooFile = open(path, mode, ...)
+fooFile = open(path, mode, ...) # fooFile is object
 
 # close file when done using
 fooFile.close()
