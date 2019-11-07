@@ -17,3 +17,10 @@ fooFile.close()
   * "b": Read\Write data as binary. This option can be added to the above (e.g. “r+b”).
 * `...`: This refers to other less common options available within the open function call
 * While the file is opened, no other program will allowed to access it (Close it: `fooFile.close()`)
+
+## Readability check
+```python
+fooFile = "C:\\path\\to\\FooFile.txt"
+if os.access(fooFile, mode=os.R_OK):  # mode=os.R_OK specifically checks readability
+  # open file and process
+```
