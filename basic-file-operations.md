@@ -47,7 +47,8 @@ print(fileContent)
 fooFile = open("foo.txt", mode="r")
 fileContent = ""
 for line in fooFile: # iterator will call fooFile.readline()
-	fileContent += line
+  # can perform operations on each line
+  fileContent += line
  
 # Be sure to close the file 
 fooFile.close()
