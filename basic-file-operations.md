@@ -85,3 +85,11 @@ A with statement has the format:
 with [object] as [variable]:
 	[execution]
 ```
+
+```python
+with open("example.txt", mode="r") as x:
+	all = ""
+	for line in x:
+		all += line
+```
+
