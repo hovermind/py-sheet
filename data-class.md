@@ -31,3 +31,6 @@ print(p)  # Point(x=1.5, y=2.5, z=0.0)
 * https://realpython.com/python-data-classes/
 * https://stackoverflow.com/a/45426493/4802664
 * https://stackoverflow.com/questions/47955263/what-are-data-classes-and-how-are-they-different-from-common-classes
+
+## Data class getter setter
+https://stackoverflow.com/questions/51079503/python-dataclass-and-property-decorator
