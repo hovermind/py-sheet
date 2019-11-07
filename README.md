@@ -30,6 +30,7 @@
     * https://stackoverflow.com/questions/47955263/what-are-data-classes-and-how-are-they-different-from-common-classes
     * https://realpython.com/python-data-classes/
     * https://dev.to/btaskaya/dataclasses-in-python-4hli
+  * [Module and package](/master/module-and-package.md)
 * [IO](#)
 
   
