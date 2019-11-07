@@ -29,5 +29,6 @@
   * [Indexer](https://github.com/hovermind/py-sheet/blob/master/indexer.md)
   * Data class: [python-data-classes details](https://realpython.com/python-data-classes/) | [data class vs common class](https://stackoverflow.com/questions/47955263/what-are-data-classes-and-how-are-they-different-from-common-classes)
 * [IO](#)
-
-  
+  * [stdin](#)
+  * stdout -> print (covered before)
+  * [basic file access](#)
