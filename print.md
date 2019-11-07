@@ -33,20 +33,3 @@ print("Hello {hooman}!, I am {hovermind}\n".format_map(locals()))
 More:
 * https://www.programiz.com/python-programming/string-interpolation
 
-## Comment
-* single line: `# this is single line commenct`
-* multi-line:
-```python
-''' This is 
-    Multi-line comment 
-    in python
-'''
-
-# to avoid new line after """, use '\'
-"""\
-This is an example
-of a multi-line string
-in Python.
-""" 
-```
-
