@@ -1,5 +1,6 @@
-#### Courtesy:
-* https://wellsr.com/python/basics/python-io-input-output-examples/
+* 
+* Courtesy:
+  * https://wellsr.com/python/basics/python-io-input-output-examples/
 
 ## open()
 ```python
