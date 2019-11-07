@@ -2,7 +2,7 @@
 * Courtesy:
   * https://wellsr.com/python/basics/python-io-input-output-examples/
 
-## open()
+## Open
 ```python
 fooFile = open(path, mode, ...) # fooFile is object
 
@@ -57,7 +57,7 @@ fooFile.close()
 print(all)
 ```
 
-## Write()
+## Write
 ```python
 fooFile = open("foo.txt", mode="a")
 contentToWrite: str = "foo bar baz"
@@ -66,7 +66,7 @@ fooFile.write(contentToWrite) # appending since opened with mode="a"
 fooFile.close()
 ```
 
-## with Statement - C# IDisposible
+## With Statement
 * similar to C# using or java try-with-resources or swift deferred execution
 * with context manager - sub-environment” under which the code is executed
 * The with statement allows a special instantiation of an object, where:
