@@ -30,5 +30,5 @@
   * Data class: [python-data-classes details](https://realpython.com/python-data-classes/) | [data class vs common class](https://stackoverflow.com/questions/47955263/what-are-data-classes-and-how-are-they-different-from-common-classes)
 * [IO](#)
   * [stdin (keyboard input)](/stdin.md)
-  * stdout -> print (covered before)
+  * stdout -> [print](/printing_and_comment.md#print-function) (covered before)
   * [basic file access](/basic-file-access.md)
