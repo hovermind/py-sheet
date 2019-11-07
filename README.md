@@ -31,4 +31,4 @@
 * [IO](#)
   * [stdin (keyboard input)](/stdin.md)
   * stdout -> print (covered before)
-  * [basic file access](#)
+  * [basic file access](/basic-file-access.md)
