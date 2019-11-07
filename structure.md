@@ -47,19 +47,8 @@ my_item = MyStruct('foo', 0, ['baz'], User('peter'))
 print(my_item)    # MyStruct(foo='foo', bar=0, baz=['baz'], qux=User(name='peter'))
 ```
 
-## [Data Classes](https://stackoverflow.com/a/45426493/4802664)
+## Data Classes
 With the introduction of Data Classes in Python 3.7 we get very close to structure. 
 The following example is similar to the NamedTuple, but the resulting object is mutable and it allows for default values
-```python
-from dataclasses import dataclass
 
-@dataclass
-class Point:
-    x: float
-    y: float
-    z: float = 0.0
-
-p = Point(1.5, 2.5)
-
-print(p)  # Point(x=1.5, y=2.5, z=0.0)
-```
+**See:** [Data Class](/data-class.md)
