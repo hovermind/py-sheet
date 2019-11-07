@@ -66,6 +66,7 @@ fooFile.close()
 ```
 
 ## with Statement - C# IDisposible
+* context manager
 * similar to C# using or java try-with-resources or swift deferred execution
 
 A with statement has the format:
