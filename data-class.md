@@ -27,6 +27,7 @@ print(p)  # Point(x=1.5, y=2.5, z=0.0)
 ```
 
 **More:**
-* https://stackoverflow.com/a/45426493/4802664
+ *https://docs.python.org/3/library/dataclasses.html
 * https://realpython.com/python-data-classes/
+* https://stackoverflow.com/a/45426493/4802664
 * https://stackoverflow.com/questions/47955263/what-are-data-classes-and-how-are-they-different-from-common-classes
