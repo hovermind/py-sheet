@@ -64,3 +64,12 @@ fooFile.write(contentToWrite) # appending since opened with mode="a"
 
 fooFile.close()
 ```
+
+## with Statement - C# IDisposible
+* similar to C# using or java try-with-resources or swift deferred execution
+
+A with statement has the format:
+```text
+with [object] as [variable]:
+	[execution]
+```
