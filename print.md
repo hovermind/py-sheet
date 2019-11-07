@@ -1,7 +1,6 @@
 # TOC
 * [Print function](/printing_and_comment.md#print-function)
 * [Printing interpolated string](/printing_and_comment.md#printing-interpolated-string)
-* [Comment](/printing_and_comment.md#comment)
 
 ## Print function
 ```python
