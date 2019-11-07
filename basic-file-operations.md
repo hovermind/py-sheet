@@ -5,6 +5,8 @@
 ```python
 fooFile = open(path, mode, ...) # fooFile is object
 
+# work with file
+
 # close file when done using
 fooFile.close()
 ```
@@ -26,4 +28,29 @@ fooFile.close()
 fooFile = "C:\\path\\to\\FooFile.txt"
 if os.access(fooFile, mode=os.R_OK):  # mode=os.R_OK specifically checks readability
   # open file and process
+```
+
+## Reading content
+**`read()`:** reads whole file content at once
+```python
+fooFile = open("foo.txt", mode="r")
+fileContent = fooFile.read()
+
+# Be sure to close the file
+fooFile.close()
+
+print(fileContent)
+```
+
+**Line-by-line:** file object iterator calls `readline()`
+```python
+fooFile = open("foo.txt", mode="r")
+fileContent = ""
+for line in fooFile: # iterator will call fooFile.readline()
+	fileContent += line
+ 
+# Be sure to close the file 
+fooFile.close()
+
+print(all)
 ```
