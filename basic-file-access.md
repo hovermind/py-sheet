@@ -1,3 +1,6 @@
+#### Courtesy:
+* https://wellsr.com/python/basics/python-io-input-output-examples/
+
 ## open()
 ```python
 fooFile = open(path, mode, ...) # fooFile is object
