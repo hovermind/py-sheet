@@ -23,10 +23,13 @@
 * [class](https://github.com/hovermind/py-sheet/blob/master/class.md)
 * [interface](https://github.com/hovermind/py-sheet/blob/master/interface.md)
 * [deep dive](#)
-    * [tuple](https://github.com/hovermind/pycheatsheet/blob/master/tuple.md)
-    * [Iterator and generator](https://github.com/hovermind/py-sheet/blob/master/iterator-and-generator.md)
-    * [Indexer](https://github.com/hovermind/py-sheet/blob/master/indexer.md)
-    * [Data class](#)
+  * [tuple](https://github.com/hovermind/pycheatsheet/blob/master/tuple.md)
+  * [Iterator and generator](https://github.com/hovermind/py-sheet/blob/master/iterator-and-generator.md)
+  * [Indexer](https://github.com/hovermind/py-sheet/blob/master/indexer.md)
+  * Data class
+    * https://stackoverflow.com/questions/47955263/what-are-data-classes-and-how-are-they-different-from-common-classes
+    * https://realpython.com/python-data-classes/
+    * https://dev.to/btaskaya/dataclasses-in-python-4hli
 * [IO](#)
 
   
