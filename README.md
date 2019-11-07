@@ -24,6 +24,9 @@
 * [interface](https://github.com/hovermind/py-sheet/blob/master/interface.md)
 * [deep dive](#)
   * [Module and package](/module-and-package.md)
+    * https://stackoverflow.com/questions/7948494/whats-the-difference-between-a-python-module-and-a-python-package
+    * https://realpython.com/python-modules-packages/
+    * https://www.learnpython.org/en/Modules_and_Packages
   * [tuple](https://github.com/hovermind/pycheatsheet/blob/master/tuple.md)
   * [Iterator and generator](https://github.com/hovermind/py-sheet/blob/master/iterator-and-generator.md)
   * [Indexer](https://github.com/hovermind/py-sheet/blob/master/indexer.md)
