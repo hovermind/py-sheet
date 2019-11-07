@@ -23,12 +23,14 @@ in Python.
 **Sample 1**
 ```python
 def complex(real=0.0, imag=0.0):
-    """Form a complex number.
+    """\
+    Form a complex number.
 
     Keyword arguments:
     real -- the real part (default 0.0)
     imag -- the imaginary part (default 0.0)
     """
+    
     if imag == 0.0 and real == 0.0:
         return complex_zero
     ...
@@ -42,8 +44,8 @@ from src import Info
 
 def get_info(line: str, delimiter: str = " ") -> Info:
     """\
-    Splits given line with specified delimiter and returns Info class
-    If no delimiter is given, then space is used by default
+    Splits given line with specified delimiter and returns Info class.
+    If no delimiter is given, then space is used by default.
 
     Parameters
     ----------
