@@ -1,4 +1,9 @@
-* 
+# TOC
+* [Open](#open)
+* [Readability check](#readability-check)
+* [Reading content](#reading-content)
+* [Write](#write)
+* [With Statement](#With-Statement)
 * Courtesy:
   * https://wellsr.com/python/basics/python-io-input-output-examples/
 
