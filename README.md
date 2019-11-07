@@ -23,17 +23,11 @@
 * [class](https://github.com/hovermind/py-sheet/blob/master/class.md)
 * [interface](https://github.com/hovermind/py-sheet/blob/master/interface.md)
 * [deep dive](#)
-  * [Module and package](/module-and-package.md)
-    * https://stackoverflow.com/questions/7948494/whats-the-difference-between-a-python-module-and-a-python-package
-    * https://realpython.com/python-modules-packages/
-    * https://www.learnpython.org/en/Modules_and_Packages
+  * [Module and package](/module-and-package.md) ([module vs package](https://stackoverflow.com/questions/7948494/whats-the-difference-between-a-python-module-and-a-python-package), [python-modules-packages details](https://realpython.com/python-modules-packages/))
   * [tuple](https://github.com/hovermind/pycheatsheet/blob/master/tuple.md)
   * [Iterator and generator](https://github.com/hovermind/py-sheet/blob/master/iterator-and-generator.md)
   * [Indexer](https://github.com/hovermind/py-sheet/blob/master/indexer.md)
-  * Data class
-    * https://stackoverflow.com/questions/47955263/what-are-data-classes-and-how-are-they-different-from-common-classes
-    * https://realpython.com/python-data-classes/
-    * https://dev.to/btaskaya/dataclasses-in-python-4hli
+  * Data class: [python-data-classes details](https://realpython.com/python-data-classes/), [data class vs common class](https://stackoverflow.com/questions/47955263/what-are-data-classes-and-how-are-they-different-from-common-classes)
 * [IO](#)
 
   
