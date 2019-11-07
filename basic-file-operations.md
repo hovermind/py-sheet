@@ -55,3 +55,12 @@ fooFile.close()
 
 print(all)
 ```
+
+## Write()
+```python
+fooFile = open("foo.txt", mode="a")
+contentToWrite: str = "foo bar baz"
+fooFile.write(contentToWrite) # appending since opened with mode="a"
+
+fooFile.close()
+```
