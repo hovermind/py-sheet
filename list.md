@@ -1,6 +1,7 @@
 # TOC
 * [Python list](#python-list)
 * [Creating list](#creating-list)
+  * [List Comprehensions](#List-Comprehensions)
 * [Accessing list item](#accessing-list-item)
 * [Iterating trough a list](#iterating-trough-a-list)
 * [Slicing list](#slicing-list)
@@ -42,6 +43,7 @@ myList = [1, "Hello", 3.4] # list with mixed datatypes
 myNestedList = [[], []] # nested/multidimentional list
 ```
 
+## List Comprehensions
 **Elegant way to create new List: `[x for x in range(n)]`** x starts with 0
 ```
 linear = [x for x in range(5)]             # [0, 1, 2, 3, 4]
