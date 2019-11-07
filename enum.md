@@ -16,10 +16,31 @@ class Color(Enum):
 ```
 * member values can be anything: `int`, `str`
 * even though we use the class syntax to create Enums, Enums are not normal Python classes
-* two enum members with the same name is invalid, but two members can have same value (to ensure unique enumeration values: `from enum import Enum, unique`)
 * info about enum with `repr `
+  ```python
+  print(repr(Color.RED))    # Color.RED: 1
+  ```
+* two enum members with the same name is invalid, but two members can have same value (to ensure unique enumeration values: `from enum import Enum, unique`)
 ```python
-print(repr(Color.RED))    # Color.RED: 1
+# not unique
+from enum import Enum
+
+class Ok(Enum):
+  ONE = 1
+  TWO = 2
+  THREE = 3
+  FOUR = 3
+  
+# unique
+from enum import Enum, unique
+@unique
+class Mistake(Enum):
+  ONE = 1
+  TWO = 2
+  THREE = 3
+  FOUR = 3
+
+# ValueError: duplicate values found in <enum 'Mistake'>: FOUR -> THREE
 ```
 
 [Alternative syntax](https://stackoverflow.com/a/1695250/4802664)
