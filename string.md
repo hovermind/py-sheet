@@ -2,6 +2,8 @@
 * [String](/string.md#string)
 * [String interpolation](/string.md#string-interpolation)
 * [Escape sequence](/string.md#escape-sequence)
+* [Raw string](#Raw-string)
+* [Stripping](#Stripping)
 * [Split](/string.md#split)
 * [Join](/string.md#join)
 * [Concatenation](/string.md#concatenation)
@@ -44,9 +46,21 @@ print('He said, "What\'s there?"')
 print("He said, \"What's there?\"")
 ```
 
-**Raw  string (C# verbatim string) :** use r or R in front of string
+## Raw string
+* similar to C# verbatim string : use r or R in front of string
 ```python
 print(r"This is \x61 \ngood example")   # This is \x61 \ngood example
+```
+
+## Stripping
+* removes space/tab/etc from start and end of the string
+* https://stackoverflow.com/a/1185529
+```python
+foo = foo.strip()  // both left and right
+foo = foo.lstrip() // left only
+foo = foo.rstrip() // right only
+
+strip('\t\n\r')  // specified chars from both ends
 ```
 
 ## Split
