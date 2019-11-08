@@ -3,6 +3,7 @@
 * [Using automatic values](#Using-automatic-values)
 * [Accessing enum member](#Accessing-enum-member)
 * [Enum member name and value](#Enum-member-name-and-value)
+* [String to enum](#String-to-enum)
 * [Iterating over enum members](#Iterating-over-enum-members)
 
 ## Python enum
@@ -88,7 +89,8 @@ print(Color.RED.value)    # 1
 
 ## String to enum
 ```python
-data_format: DataFormat = DataFormat[foo]  # foo is a variable that would get string value that matches DataFormat enum member
+# foo is a variable that would get string value that matches DataFormat enum member
+data_format: DataFormat = DataFormat[foo]
 ```
 
 ## Iterating over enum members
