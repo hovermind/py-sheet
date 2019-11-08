@@ -51,9 +51,36 @@ into.data_format = DataFormat.A
 ```
 
 ## Post init
-Dataclasses generate the __init__() method for you — and that's great. They even provide a __post_init__() hook method in case you want to do some more initialization (see Post-init processing)
+* Dataclasses generate the __init__() method for you — and that's great. They even provide a __post_init__() hook method in case you want to do some more initialization (see Post-init processing)
+* since we have no control over `__init__`, (auto generated), `__post_init__` is given and `__post_init__` will be called by `__init__`
 ```python
+from dataclasses import dataclass
+from src import DataFormat
 
+
+@dataclass
+class Info():
+    project_name: str
+    data_format: DataFormat
+    
+    def __post_init__(self):
+        # this will be called by __init__ (at the end of __init__)
+```
+
+**if you use `InitVar` (`foo: InitVar[int]`), that field will be passed to `__post_init__` as an argument**
+```python
+from dataclasses import dataclass
+from src import DataFormat
+
+
+@dataclass
+class Info():
+    foo: InitVar[int]
+    project_name: str
+    data_format: DataFormat
+    
+    def __post_init__(self, foo: int):
+        # this will be called by __init__ (at the end of __init__)
 ```
 
 ## Data class getter setter
