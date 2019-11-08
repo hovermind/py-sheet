@@ -104,15 +104,22 @@ print(ob.func)    # Output: <bound method MyClass.func of <__main__.MyClass obje
 ```
 
 ## Class variable vs instance variable
-Generally speaking, instance variables are for data unique to each instance and class variables are for attributes and methods shared by all instances of the class:
+* class variable -> similar to static
+* instance variable -> similar to normal property
+* any property outside `__init__` constructor : class variable
+* any property inside `__init__` constructor : instance variable
+* any property inside `__init__` constructor with underscore: private instance variable (by convention)
 ```
 class Dog:
-	'''This is a docstring'''
+	"""\
+	This is a docstring
+	"""
 
-    kind = 'canine'         # class variable shared by all instances
+    kind = 'canine'             # class variable shared by all instances
 
     def __init__(self, name):
-        self.name = name    # instance variable unique to each instance
+        self.name = name        # instance variable unique to each instance
+	self._trace_id = "1"    # private instance variable
 ```
 
 ## Function vs method
