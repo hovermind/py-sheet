@@ -39,12 +39,27 @@ print(p)  # Point(x=1.5, y=2.5, z=0.0)
 ```
 
 ## Using dataclass
-```python
-# with arguments
-info = Info("project_1", DataFormat.A)
-info = Info(project_name: "project_1", data_format: DataFormat.A)
+* `@dataclass`: `@dataclass(init=True, repr=True, eq=True, order=False, unsafe_hash=False, frozen=False)`
+* use `@dataclass(init=False)` if you want to instantiate dataclass with empty constructor
 
-# without arguments
+#### with arguments
+```python
+@dataclass
+class Info():
+    project_name: str
+    data_format: DataFormat
+
+info = Info("project_1", DataFormat.A)
+# info = Info(project_name: "project_1", data_format: DataFormat.A)
+```
+
+#### without arguments
+```python
+@dataclass(init=False)
+class Info():
+    project_name: str
+    data_format: DataFormat
+    
 into = Info()
 into.project_name = "project_1"
 into.data_format = DataFormat.A
