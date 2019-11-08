@@ -1,6 +1,7 @@
 ## Dataclass
 * `@dataclass`: is known as decorator (This decorator is really just a code generator)
 * similar to kotlin data class
+* `@dataclass` generates all the boiler plate codes and some extra code behind the scene (you have to do it manually for normal class)
 
 ## Dataclass deinition
 
