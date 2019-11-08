@@ -69,6 +69,8 @@ list(Color)    # [<Color.RED: 1>, <Color.BLUE: 2>, <Color.GREEN: 3>]
 * by name: `Color['RED']`
 * by value: `Color(1)`
 
+**Note:** member is an object representing one enum member item (not value or name)
+
 ## Enum member name and value
 ```python
 from enum import Enum
@@ -82,6 +84,11 @@ print(Color.RED.name)    # RED
 
 # member value
 print(Color.RED.value)    # 1
+```
+
+## String to enum
+```python
+data_format: DataFormat = DataFormat[foo]  # foo is a variable that would get string value that matches DataFormat enum member
 ```
 
 ## Iterating over enum members
