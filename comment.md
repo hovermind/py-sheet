@@ -26,13 +26,13 @@ in Python.
 * https://stackoverflow.com/questions/3898572/what-is-the-standard-python-docstring-format
 * https://www.datacamp.com/community/tutorials/docstrings-python
 
-#### python official
+### python official
 * https://www.python.org/dev/peps/pep-0257/#multi-line-docstrings
 ```python
 
 ```
 
-#### google guideline
+### google guideline
 * https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
 * http://google.github.io/styleguide/pyguide.html
 
@@ -89,7 +89,7 @@ def module_level_function(param1, param2 = None, *args, **kwargs):
     """
 ```
 
-#### Other doc comment style
+### Other doc comment style
 **Sample 1**
 ```python
 from typing import List
