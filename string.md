@@ -56,11 +56,11 @@ print(r"This is \x61 \ngood example")   # This is \x61 \ngood example
 * removes space/tab/etc from start and end of the string
 * https://stackoverflow.com/a/1185529
 ```python
-foo = foo.strip()  // both left and right
-foo = foo.lstrip() // left only
-foo = foo.rstrip() // right only
+foo = foo.strip()  # both left and right
+foo = foo.lstrip() # left only
+foo = foo.rstrip() # right only
 
-strip('\t\n\r')  // specified chars from both ends
+strip('\t\n\r')  # specified chars from both ends
 ```
 
 ## Split
