@@ -47,3 +47,13 @@ print(MyConst.PI) # will print 3.1416
 MyConst.PI = 3.14 # will raise TypeError
 ```
 
+As of Python 3.8, there's a typing.Final variable annotation that will tell static type checkers (like mypy) that your variable shouldn't be reassigned. This is the closest equivalent to Java's final. However, it does not actually prevent reassignment:
+```python
+from typing import Final
+
+a: Final = 1
+
+# Executes fine, but mypy will report an error if you run mypy on this:
+a = 2
+```
+See: https://stackoverflow.com/a/2682752
