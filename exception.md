@@ -9,8 +9,17 @@
 ```python
 try:
    # code
-except ExceptionClass:
+except ExceptionClass as e:
    # code
+```
+Example
+```python
+import shutil
+
+try:
+  shutil.rmtree(directory)
+except OSError as e:
+  logger.error(f"Error: {e.filename} - {e.strerror}")
 ```
 
 ## Raising exception
