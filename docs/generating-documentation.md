@@ -8,7 +8,7 @@
   * `sphinx-quickstart`
 
 ## Configurations
-* [`conf.py`](#)
+* [`conf.py`](/docs/conf-py.md)
 * extensions: https://www.sphinx-doc.org/en/master/usage/extensions/
 
 ## Generate sphinix files 
