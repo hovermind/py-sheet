@@ -28,4 +28,3 @@
 * **method 2**: `make html` (execute command from docs folder)
   * (sphinx-quickstart script creates a Makefile and a make.bat which make life even easier )
   * creates docs in docks/_build/html
-* generating api docs:
