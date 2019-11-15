@@ -47,7 +47,7 @@
 		"entry_point": ["none", "cli", "gui"]
 	}
 	```
-* create template:
+* generate project:
   * check current location in git bash or cmd (it has to be in "py project generation" folder, `cd py project generation` if needed)
   * Command: `cookiecutter --no-input foo` (i.e. `cookiecutter --no-input python-project-template-master`)
     * `--no-input`: does not ask questions for tempate replacement, uses `cookiecutter.json`
