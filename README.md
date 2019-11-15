@@ -1,6 +1,8 @@
-# [Python world](/python-world)
-
-# <a name="#toc"> Python language
+# <a name="#toc">TOC
+* [Python language](#Python-language)
+* [Python world](#Python-world)
+   
+## Python language
 * [data types and variables](https://github.com/hovermind/pycheatsheet/blob/master/data_types_and_variables.md)
 * [literals and constant](https://github.com/hovermind/pycheatsheet/blob/master/literal_and_constant.md)
 * [print](/print.md)
@@ -36,3 +38,10 @@
   * [stdin (keyboard input)](/stdin.md)
   * stdout -> [print](/printing_and_comment.md#print-function) (covered before)
   * [basic file operations](/basic-file-operations.md)
+
+
+## [Python world](/python-world)
+* [Understanding python eco system](/python-world/understanding-python-eco-system.md)
+* [Generating documentation](/python-world/generating-documentation.md)
+* [Python virtual environment](/python-world/python-virtual-environment.md)
+* [Creating python project from template](/python-world/creating-python-project-from-template.md)
