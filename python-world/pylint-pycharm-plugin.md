@@ -1,5 +1,5 @@
 ## Pylint PyCharm plugin
-* `pip install pylint`
+* cmd: `pip install pylint`
 * copy `pylint.exe` path: search pylint > right click > open file location
 * install pylint PyCharm plugin: 
   * Settings > Plugins
