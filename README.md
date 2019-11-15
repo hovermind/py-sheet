@@ -40,7 +40,7 @@
   * [basic file operations](/basic-file-operations.md)
 
 
-## [Python world](/python-world)
+## Python world
 * [Understanding python eco system](/python-world/understanding-python-eco-system.md)
 * [Generating documentation](/python-world/generating-documentation.md)
 * [Python virtual environment](/python-world/python-virtual-environment.md)
