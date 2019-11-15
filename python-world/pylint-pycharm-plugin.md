@@ -9,3 +9,7 @@
   * Path to Pylint executable: `C:\Users\hassan\AppData\Local\Programs\Python\Python38-32\Scripts\pylint.exe`
   * test > ok
 * View > Tool Windows > Pylint (should show in the bottom left)
+
+## Pylint settings
+#### Arguments
+* Max line length: Settings > Pylint > Arguments: `--max-line-length=120`
