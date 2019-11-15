@@ -1,4 +1,6 @@
-## <a name="#toc">TOC
+# [Python world](/python-world)
+
+# <a name="#toc"> Python language
 * [data types and variables](https://github.com/hovermind/pycheatsheet/blob/master/data_types_and_variables.md)
 * [literals and constant](https://github.com/hovermind/pycheatsheet/blob/master/literal_and_constant.md)
 * [print](/print.md)
