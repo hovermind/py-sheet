@@ -56,20 +56,21 @@ sphinx-apidoc is part of Sphinx that generates `.rst` files (from docstring in `
 * Terminal > `cd docs` if not in docs folder (no need if already in docs folder)
 * Makefile:
   * Sphinx Quickstart created a `make.bat` for our convinience in docs folder 
-  * `make html` 
+  * `make html`
+  * html files will be generated in build/html folder
 * sphinx-build:
-  * `sphinx-build -b html source build` (execute command from docs folder)
+  * `sphinx-build -b html source build/html` (execute command from docs folder)
     *`-b`: builder type
     *`-b html`: html builder
 	* `source`: `.rst` fles in source folder
-    * `build`: html files will be generated in build folder
+    * `build/htm`: html files will be generated in build/html folder
 
 #### By sphinx task
 * Run > Edit Configurations > '+' > select: Python docs > Sphinx task
 * Name: Generate html docs
 * Command: html
 * Input: `C:\Users\hassan\Documents\MyProject\docs\source`
-* Output: `C:\Users\hassan\Documents\MyProject\docs\build`
+* Output: `C:\Users\hassan\Documents\MyProject\docs\build\html`
 * Run: 'Generate html docs' (View > Tool Window > Run)
 
 
