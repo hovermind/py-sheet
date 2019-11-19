@@ -20,3 +20,8 @@ Check package is installed
 ```cmd
 pip show foo
 ```
+
+extract requirements
+```cmd
+pip freeze > requirements.txt
+```
