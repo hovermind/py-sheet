@@ -1,4 +1,9 @@
 ## Setup file
+* `setup.py` in root folder (i.e. repo)
+* pip install path/to/root`: uses `setup.py`
+* use `packages` param to mention that main src in usb folder of root folder
+* use `scripts` param
+
 `setup.py`
 ```python
 #!/usr/bin/env python3
