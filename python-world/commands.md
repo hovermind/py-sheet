@@ -15,3 +15,8 @@ pip install -r requirements.txt
 ```
 
 Details: https://packaging.python.org/tutorials/installing-packages/
+
+Check package is installed
+```cmd
+pip show foo
+```
