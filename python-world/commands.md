@@ -13,3 +13,5 @@ install packages from `requiremetns.txt`
 ```cmd
 pip install -r requirements.txt
 ```
+
+Details: https://packaging.python.org/tutorials/installing-packages/
