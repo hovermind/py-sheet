@@ -11,3 +11,8 @@
 ## PyPT
 * python packaging tool
 * similar to Nuget
+
+## Python eggs
+"Eggs are to Pythons as Jars are to Java..."
+
+Details: http://peak.telecommunity.com/DevCenter/PythonEggs
