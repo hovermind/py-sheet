@@ -5,6 +5,11 @@ python --version
 ```
 
 ## pip
+version check: cmd
+```cmd
+pip --version
+```
+
 pip not installed (linux)
 ```cmd
 python -m pip install --upgrade pip setuptools wheel
