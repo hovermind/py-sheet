@@ -1,5 +1,5 @@
 ## Requirement
-* project must contain `setup.py`
+* project must contain [`setup.py`](/python-world/setup-py.md)
 * `pip install --upgrade /path/to/repo` : will use `setup.py` to build `.whl` and put that `.whl` file in site-packages (as like pip install from pypi.org)
 
 ## Installation
@@ -10,7 +10,7 @@
 #### From script
 `ensure_lib.py`
 ```python
-"""\
+"""
 Ensure required libs are installed.
 """
 import subprocess
