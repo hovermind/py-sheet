@@ -1,3 +1,9 @@
+## python
+check version: cmd
+```cmd
+python --version
+```
+
 ## pip
 pip not installed (linux)
 ```cmd
