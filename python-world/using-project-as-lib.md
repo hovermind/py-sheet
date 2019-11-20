@@ -2,11 +2,12 @@
 * project must contain [`setup.py`](/python-world/setup-py.md)
 * `pip install --upgrade /path/to/repo` : will use `setup.py` to build `.whl` and put that `.whl` file in site-packages (as like pip install from pypi.org)
 
-## Installation
-#### CMD
-* CMD/Termical in project forlder
-* `pip install --upgrade path/to/repo`
+## Development installation
+* `pip install -e path/to/repo`
+* `-e`: flag indicates editable
+* pip will constantly look at repo and build wheel and put that wheel to site-packages. So latest code from repo will be always available as lib 
 
+## Production Installation
 #### From script
 `ensure_lib.py`
 ```python
@@ -62,3 +63,8 @@ if __name__ == '__main__':
     pkg_src_dir: str = "../foo"
     install_pkg_from_src([(pkg_name, pkg_src_dir)])
 ```
+
+#### CMD
+manually install lib first in the production machine and then install/use app
+* CMD/Termical in project forlder
+* `pip install --upgrade path/to/repo`
