@@ -1,3 +1,8 @@
+# TOC
+* [python](#python)
+* [pip](#pip)
+* [setup.py](#setup)
+
 ## python
 check version: cmd
 ```cmd
@@ -54,3 +59,13 @@ from sys import executable
 
 call([executable, "-m", "pip", "install", "../my-lib"])
 ```
+
+## setup
+Command: `setup.py ...` (CMD/Terminal in project_dir)
+* files are generated in `project_dir/dist`
+* `setup.py bdist_egg` -> `.egg` (as like `.jar` in java)
+* `setup.py sdist` -> `.tar.gz`
+* `setup.py sdist bdist_wheel` -> `.tar.gz` and `. whl`
+* `setup.py bdist` -> `.zip`
+* `setup.py bdist_wheel` -> `.whl`
+* `setup.py bdist_wheel -d target_dir`
