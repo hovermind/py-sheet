@@ -10,6 +10,9 @@ python --version
 ```
 
 ## pip
+* install from git: https://pip.pypa.io/en/stable/reference/pip_install/#git
+* details: https://packaging.python.org/tutorials/installing-packages/
+
 version check: cmd
 ```cmd
 pip --version
@@ -29,8 +32,6 @@ install packages from `requiremetns.txt`
 ```cmd
 pip install -r requirements.txt
 ```
-
-Details: https://packaging.python.org/tutorials/installing-packages/
 
 Check package is installed
 ```cmd
