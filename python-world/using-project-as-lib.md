@@ -9,7 +9,7 @@
 
 # Production Installation
 ### Production Installation from script
-**1. Use [ensure_packages.py](/python-world/ensure_packages.md) in main script**
+**1. Use [ensure_packages.py](/python-world/ensure_packages.md) in main script**     
 `start.py`
 ```python
 from ensure_packages import install_packages
@@ -19,7 +19,7 @@ if __name__ == '__main__':
     pkg_src_dir: str = "../foo"
     install_packages([(pkg_name, pkg_src_dir)])
 ```
-**2. Use in [pre-installation script](/python-world/pre-and-post-installation-scripts.md#pre-installation-script) `setup.py`**
+**2. Use in [pre-installation script](/python-world/pre-and-post-installation-scripts.md#pre-installation-script) `setup.py`**   
 `setup.py`
 ```py
 def run_pre_setup_tasks():
@@ -28,7 +28,7 @@ def run_pre_setup_tasks():
     install_packages([(pkg_name, pkg_src_dir)])
 ```
 
-## Production Installation from command
+### Production Installation from command
 manually install lib first in the production machine and then install/use app
 * CMD/Termical in project forlder
 * `pip install --upgrade path/to/repo`
