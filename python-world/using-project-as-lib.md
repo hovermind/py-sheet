@@ -8,7 +8,12 @@
 * pip will constantly look at repo and build wheel and put that wheel to site-packages. So latest code from repo will be always available as lib 
 
 ## Production Installation
-### use [ensure_packages.py](/python-world/ensure_packages.md) in main script   
+Any of the followings:
+* use [ensure_packages.py](/python-world/ensure_packages.md) in main script
+* use [pre-installation task](/python-world/pre-and-post-installation-scripts.md#pre-installation-script) in `setup.py`
+* from command
+
+### [ensure_packages.py](/python-world/ensure_packages.md) in main script   
 `start.py`
 ```python
 
@@ -27,7 +32,7 @@ if __name__ == '__main__':
     subprocess.call(['python', './ensure_packages.py', pkg_name, pkg_src_dir])
 ```
 
-### use [pre-installation task](/python-world/pre-and-post-installation-scripts.md#pre-installation-script) in `setup.py`
+### [pre-installation task](/python-world/pre-and-post-installation-scripts.md#pre-installation-script) in `setup.py`
 `setup.py`
 ```py
 from ensure_packages import install_packages
@@ -41,7 +46,7 @@ def run_pre_setup_tasks():
 ... ... ...
 ```
 
-### from command
+### command
 manually install lib first in the production machine and then install/use app
 * CMD/Termical in project forlder
 * `pip install --upgrade path/to/repo`
