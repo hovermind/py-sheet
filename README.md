@@ -1,6 +1,6 @@
 # <a name="#toc">TOC
 * [Python language](#Python-language)
-* [Python world](/python-world)
+* [Python world](/python-world/readme.md)
    
 ## Python language
 * [data types and variables](https://github.com/hovermind/pycheatsheet/blob/master/data_types_and_variables.md)
