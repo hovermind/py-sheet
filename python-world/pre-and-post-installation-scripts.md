@@ -1,5 +1,5 @@
 # TOC
-* [pre-installation script](#pre-installation=script)
+* [pre-installation script](#pre-installation-script)
 * [post-installation script](#post-installation-script)
 
 ## pre-installation script
