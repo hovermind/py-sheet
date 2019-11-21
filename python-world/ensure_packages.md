@@ -1,3 +1,45 @@
+## Method 1
+use `ensure_packages.install_packages()` in main script    
+`start.py`
+```py
+from ensure_packages import install_packages
+    
+if __name__ == '__main__':
+    pkg_name: str = "foo"
+    pkg_src_dir: str = "../foo"
+
+    install_packages([(pkg_name, pkg_src_dir)])
+```
+
+## Method 2
+run `ensure_packages.py` with args from main script    
+`start.py`
+```py
+import subprocess
+    
+if __name__ == '__main__':
+    pkg_name: str = "foo"
+    pkg_src_dir: str = "../foo"
+
+    subprocess.call(['python', './ensure_packages.py', pkg_name, pkg_src_dir])
+```
+
+## Method 3
+use [pre-installation task](/python-world/pre-and-post-installation-scripts.md#pre-installation-script) in `setup.py`   
+`setup.py`
+```py
+from ensure_packages import install_packages
+... ... ...
+
+def run_pre_setup_tasks():
+    pkg_name: str = "foo"
+    pkg_src_dir: str = "../foo"
+    install_packages([(pkg_name, pkg_src_dir)])
+    
+... ... ...
+```
+
+## ensure packages module
 `ensure_packages.py`
 ```py
 """
