@@ -9,3 +9,4 @@
 * [App configuration](/python-world/app-configuration.md)
 * [Commands](/python-world/commands.md)
 * [Running script from another script](/python-world/running-script-from-another-script.md)
+* [ensure_packages.py](/python-world/ensure_packages.md)
