@@ -13,7 +13,7 @@ Any of the followings:
 * use [pre-installation task](/python-world/pre-and-post-installation-scripts.md#pre-installation-script) in `setup.py`
 * from command
 
-### [ensure_packages.py](/python-world/ensure_packages.md#ensure-packages-module) in main script   
+### [ensure_packages.py](/python-world/ensure-packages.md#ensure-packages-module) in main script   
 `start.py`
 ```python
 
