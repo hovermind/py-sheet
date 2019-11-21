@@ -1,3 +1,8 @@
+## installing required packages
+* [method 1](#method-1)
+* [method 1](#method-1)
+* [method 1](#method-1)
+
 ## ensure packages module
 `ensure_packages.py`
 ```py
@@ -36,24 +41,22 @@ def install_packages(package_list: List[Tuple[str, str]]):
         package_list (List[Tuple[str, str]]): list of (pkg_name, pkg_dir) tuples
     """
     for (package_name, package_src_dir) in package_list:
-        if package_name.strip():
-            if package_src_dir.strip():
-                # install from local dir
-                # print(f"pip install {package_src_dir}")
-                call([executable, "-m", "pip", "install", "--upgrade",
-                      package_src_dir])
-            else:
-                # install from pypi.org index
-                # print(f"pip install {package_name}")
-                call(
-                    [executable, "-m", "pip", "install", "--upgrade",
-                     package_name])
+        if package_src_dir and package_src_dir.strip():
+            # install from local dir
+            print(f"pip install {package_src_dir}")
+            call([executable, "-m", "pip", "install", "--upgrade",
+                  package_src_dir])
+        elif package_name and package_name.strip():
+            # install from pypi.org index
+            print(f"install from pypi.org index. pip install {package_name}")
+            call([executable, "-m", "pip", "install", "--upgrade",
+                  package_name])
 
 
 if __name__ == '__main__':
     args_count = len(sys.argv)
 
-    pkg_name: str = "PyYAML"
+    pkg_name: str = ""
     pkg_dir: str = None
 
     # sys.argv[0]: script name
@@ -63,7 +66,7 @@ if __name__ == '__main__':
     if args_count >= 3:
         pkg_name = argv[1]
         pkg_dir = argv[2]
-    if args_count >= 2:
+    elif args_count >= 2:
         pkg_name = argv[1]
 
     install_packages(package_list=[(pkg_name, pkg_dir)])
