@@ -10,6 +10,7 @@
 # Production Installation
 ### Production Installation from script
 **1. Use [ensure_packages.py](/python-world/ensure_packages.md) in main script**     
+
 `start.py`
 ```python
 from ensure_packages import install_packages
@@ -19,13 +20,18 @@ if __name__ == '__main__':
     pkg_src_dir: str = "../foo"
     install_packages([(pkg_name, pkg_src_dir)])
 ```
-**2. Use in [pre-installation script](/python-world/pre-and-post-installation-scripts.md#pre-installation-script) `setup.py`**   
+**2. Use [pre-installation script](/python-world/pre-and-post-installation-scripts.md#pre-installation-script) in `setup.py`**   
+
 `setup.py`
 ```py
+... ... ...
+
 def run_pre_setup_tasks():
     pkg_name: str = "foo"
     pkg_src_dir: str = "../foo"
     install_packages([(pkg_name, pkg_src_dir)])
+    
+... ... ...
 ```
 
 ### Production Installation from command
