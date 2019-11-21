@@ -1,4 +1,4 @@
-## installing required packages
+## installing required packages usinf `ensure_packages.py` module
 * [method 1](#method-1)
 * [method 1](#method-1)
 * [method 1](#method-1)
