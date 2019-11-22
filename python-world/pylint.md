@@ -2,6 +2,7 @@
 * [Pylint PyCharm plugin](#Pylint-PyCharm-plugin)
 * [Pylint settings](#Pylint-settings)
 * https://learn.adafruit.com/improve-your-code-with-pylint/pylintrc
+* Mypy: https://mypy.readthedocs.io/en/latest/running_mypy.html
 
 ## Pylint PyCharm plugin
 * cmd: `pip install pylint`
