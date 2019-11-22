@@ -11,5 +11,20 @@
 * View > Tool Windows > Pylint (should show in the bottom left)
 
 ## Pylint settings
-#### Arguments
+#### config file: `.pylintrc`
+In project folder (CMD): `pylint --generate-rcfile > .pylintrc`    
+
+`.pylintrc`
+```text
+... ... ...
+
+# Ignore imports when computing similarities.
+ignore-imports=yes
+
+... ... ...
+```
+
+or create `.pylintrc` manually and copy text from cmd: `pylint --generate-rcfile`
+
+#### Arguments in PyCharm
 * Max line length: Settings > Pylint > Arguments: `--max-line-length=120`
