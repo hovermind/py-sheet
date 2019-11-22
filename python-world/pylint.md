@@ -1,6 +1,6 @@
 # TOC
 * [Pylint PyCharm plugin](#Pylint-PyCharm-plugin)
-* [Pylint settings](#Pylint=settings)
+* [Pylint settings](#Pylint-settings)
 
 ## Pylint PyCharm plugin
 * cmd: `pip install pylint`
