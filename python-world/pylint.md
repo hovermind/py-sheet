@@ -1,6 +1,7 @@
 # TOC
 * [Pylint PyCharm plugin](#Pylint-PyCharm-plugin)
 * [Pylint settings](#Pylint-settings)
+* https://learn.adafruit.com/improve-your-code-with-pylint/pylintrc
 
 ## Pylint PyCharm plugin
 * cmd: `pip install pylint`
