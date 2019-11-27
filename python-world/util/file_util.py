@@ -132,7 +132,14 @@ def delete_dir(dir_path: Union[str, Path]):
         dir_path (Union[str, Path]) : directory to delete
     """
     try:
-        shutil.rmtree(dir_path)
+        # normalise
+        if isinstance(dir_path, str):
+            dir_path = Path(dir_path)
+        if dir_path.exists():
+            if os.path.islink(dir_path):
+                os.unlink(dir_path)
+            else:
+                shutil.rmtree(dir_path)
     except OSError as ex:
         log_error_console(exception=ex)
     # ---
