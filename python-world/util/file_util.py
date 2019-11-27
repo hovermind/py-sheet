@@ -137,8 +137,8 @@ def delete_dir(dir_path: Union[str, Path]):
             dir_path = Path(dir_path)
         if dir_path.exists():
             # https://code-examples.net/en/q/b28941
-            if os.path.islink(dir_path):
-                os.unlink(dir_path)
+            if dir_path.is_symlink():
+                dir_path.unlink()
             else:
                 shutil.rmtree(dir_path)
     except OSError as ex:
