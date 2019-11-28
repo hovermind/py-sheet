@@ -1,3 +1,3 @@
 # TOC
-* [pylint](/python-world/pylint.md)
-* [isort](#)
+* [pylint](/python-world/tools/pylint.md)
+* [isort](/python-world/tools/isort.md)
