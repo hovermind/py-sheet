@@ -6,3 +6,4 @@
 * [type related](https://pylang-hovermind.notebooks.azure.com/j/notebooks/type_related.ipynb)
 * [type casting](https://pylang-hovermind.notebooks.azure.com/j/notebooks/type_casting.ipynb)
 * [optional type](https://pylang-hovermind.notebooks.azure.com/j/notebooks/optional_type.ipynb)
+* [operators](#)
