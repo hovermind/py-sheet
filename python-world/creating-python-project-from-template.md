@@ -21,7 +21,7 @@
   * check cookiecutter: open cmd, type cookiecutter enter (should show: `Usage: cookiecutter [OPTIONS] TEMPLATE [EXTRA_CONTEXT]...`)
 
 ## Creating project from template
-* create a folder "py project generation"
+* create a folder and name it: "py project generation"
 * download python project template (download zip, extract)
   * https://github.com/Kwpolska/python-project-template
   * https://github.com/wdm0006/cookiecutter-pipproject
