@@ -46,7 +46,7 @@ foo = None    # ~ perl undef
 * Integers are signed can be of any length, it is only limited by the memory available
 * A floating point number is accurate up to 15 decimal places
 * There’s no type declaration to distinguish int and float. Python apart them by the presence or absence of a decimal point
-* Complex numbers are written in the form, x + yj, where x is the real part and y is the imaginary part
+* Complex numbers are written in the form, `x + yj`, where x is the real part and y is the imaginary part
 ```python
 a = 10      // Signed Integer
 a = 3.1416  // (.) Floating point real values
