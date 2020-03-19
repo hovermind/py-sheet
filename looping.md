@@ -68,7 +68,7 @@ for i in range(1, 10):
         break
     print(i)
 else:
-    print("loop is terminated because reached to limit")
+    print("loop is terminated because reached to multiple of 5")
 
 # termination by limit
 count = 0 
@@ -76,6 +76,6 @@ while(count < 5):
     print(count)
     count +=1
 else:
-    print("count value reached %d" %(count))
+    print(f"count value reached {count}")
 ```
 
